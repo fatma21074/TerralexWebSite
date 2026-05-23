@@ -44,7 +44,10 @@ namespace TerralexAPP
             });
 
             // Add services to the container.
-            builder.Services.AddControllersWithViews();
+            builder.Services.AddControllersWithViews(options =>
+            {
+                options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true;
+            });
             builder.Services.AddRazorPages(); // Add Razor Pages support
 
 
