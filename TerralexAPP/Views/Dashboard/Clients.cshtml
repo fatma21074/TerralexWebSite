@@ -5,64 +5,539 @@
     Layout = "_DashboardLayout";
 }
 
-<div class="row">
-    <div class="col-md-12">
-        <div class="d-flex justify-content-between align-items-center mb-4">
-            <h1>Clients</h1>
-            <a href="@Url.Action("CreateClient", "Dashboard")" class="btn btn-primary">Add New Client</a>
-        </div>
-    </div>
+<style>
+    /* ?? Page header ?? */
+    .page-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+
+        .page-header h2 {
+            font-family: 'Nunito', sans-serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #012970;
+            margin: 0;
+            position: relative;
+        }
+
+            .page-header h2::after {
+                content: '';
+                display: block;
+                width: 40px;
+                height: 3px;
+                background: #4154f1;
+                border-radius: 2px;
+                margin-top: 6px;
+            }
+
+    /* ?? Breadcrumb ?? */
+    .page-breadcrumb {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.85rem;
+        color: #899bbd;
+        margin-bottom: 1.5rem;
+    }
+
+        .page-breadcrumb a {
+            color: #4154f1;
+            text-decoration: none;
+        }
+
+            .page-breadcrumb a:hover {
+                text-decoration: underline;
+            }
+
+        .page-breadcrumb span {
+            margin: 0 6px;
+            color: #cdd4e0;
+        }
+
+    /* ?? Stat cards ?? */
+    .stat-card {
+        background: #fff;
+        border-radius: 10px;
+        padding: 1.25rem 1.5rem;
+        box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+        transition: box-shadow 0.2s;
+    }
+
+        .stat-card:hover {
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.18);
+        }
+
+        .stat-card .stat-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+            .stat-card .stat-icon.blue {
+                background: #e8eaff;
+                color: #4154f1;
+            }
+
+            .stat-card .stat-icon.orange {
+                background: #fff3e0;
+                color: #ff6d00;
+            }
+
+            .stat-card .stat-icon.green {
+                background: #e8f8f0;
+                color: #2eca6a;
+            }
+
+        .stat-card .stat-info p {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+        }
+
+        .stat-card .stat-info .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #012970;
+            line-height: 1.2;
+        }
+
+        .stat-card .stat-info .stat-label {
+            font-size: 0.8rem;
+            color: #899bbd;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+
+    /* ?? Main card ?? */
+    .clients-card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+        overflow: hidden;
+    }
+
+        .clients-card .card-header {
+            padding: 1.25rem 1.5rem;
+            border-bottom: 1px solid #f1f4f9;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #fff;
+        }
+
+            .clients-card .card-header h5 {
+                font-family: 'Nunito', sans-serif;
+                font-size: 1rem;
+                font-weight: 700;
+                color: #012970;
+                margin: 0;
+            }
+
+    /* ?? Search input ?? */
+    .search-wrapper {
+        position: relative;
+    }
+
+        .search-wrapper input {
+            font-family: 'Nunito', sans-serif;
+            font-size: 0.875rem;
+            border: 1px solid #e0e6ed;
+            border-radius: 20px;
+            padding: 0.45rem 1rem 0.45rem 2.4rem;
+            outline: none;
+            width: 220px;
+            color: #012970;
+            background: #f6f9ff;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+            .search-wrapper input:focus {
+                border-color: #4154f1;
+                box-shadow: 0 0 0 3px rgba(65, 84, 241, 0.12);
+                background: #fff;
+            }
+
+        .search-wrapper .search-icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #899bbd;
+            font-size: 1rem;
+            pointer-events: none;
+        }
+
+    /* ?? Table ?? */
+    .clients-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .clients-table thead tr {
+            background: #f6f9ff;
+        }
+
+        .clients-table thead th {
+            font-family: 'Nunito', sans-serif;
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: #899bbd;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            padding: 0.85rem 1.25rem;
+            border-bottom: 1px solid #e8eeff;
+            white-space: nowrap;
+        }
+
+        .clients-table tbody tr {
+            border-bottom: 1px solid #f1f4f9;
+            transition: background 0.15s;
+        }
+
+            .clients-table tbody tr:last-child {
+                border-bottom: none;
+            }
+
+            .clients-table tbody tr:hover {
+                background: #f6f9ff;
+            }
+
+        .clients-table tbody td {
+            font-family: 'Nunito', sans-serif;
+            font-size: 0.9rem;
+            color: #444;
+            padding: 0.9rem 1.25rem;
+            vertical-align: middle;
+        }
+
+    /* ?? Client avatar + name cell ?? */
+    .client-name-cell {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .client-avatar {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: #e8eaff;
+        color: #4154f1;
+        font-size: 0.8rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .client-name-cell .client-name {
+        font-weight: 600;
+        color: #012970;
+    }
+
+    .client-name-cell .client-id {
+        font-size: 0.75rem;
+        color: #899bbd;
+    }
+
+    /* ?? Client type badge ?? */
+    .badge-type {
+        display: inline-block;
+        padding: 0.25rem 0.7rem;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 700;
+        font-family: 'Nunito', sans-serif;
+    }
+
+        .badge-type.individual {
+            background: #e8f8f0;
+            color: #2eca6a;
+        }
+
+        .badge-type.corporate {
+            background: #e8eaff;
+            color: #4154f1;
+        }
+
+        .badge-type.government {
+            background: #fff3e0;
+            color: #ff6d00;
+        }
+
+        .badge-type.default {
+            background: #f1f4f9;
+            color: #899bbd;
+        }
+
+    /* ?? Action buttons ?? */
+    .btn-action {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.78rem;
+        font-weight: 700;
+        padding: 0.3rem 0.7rem;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        transition: opacity 0.15s, transform 0.12s;
+        line-height: 1.4;
+    }
+
+        .btn-action:hover {
+            opacity: 0.85;
+            transform: translateY(-1px);
+        }
+
+        .btn-action:active {
+            transform: scale(0.97);
+        }
+
+        .btn-action.view {
+            background: #e8eaff;
+            color: #4154f1;
+        }
+
+        .btn-action.edit {
+            background: #fff3e0;
+            color: #d97700;
+        }
+
+        .btn-action.delete {
+            background: #fde8e8;
+            color: #c0392b;
+        }
+
+    /* ?? Add client CTA ?? */
+    .btn-add-client {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.875rem;
+        font-weight: 700;
+        color: #fff;
+        background: linear-gradient(135deg, #4154f1, #717ff5);
+        border: none;
+        border-radius: 8px;
+        padding: 0.55rem 1.2rem;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        transition: box-shadow 0.2s, transform 0.12s;
+        box-shadow: 0 4px 14px rgba(65, 84, 241, 0.3);
+    }
+
+        .btn-add-client:hover {
+            color: #fff;
+            box-shadow: 0 6px 20px rgba(65, 84, 241, 0.45);
+            transform: translateY(-1px);
+        }
+
+    /* ?? Empty state ?? */
+    .empty-state {
+        text-align: center;
+        padding: 3rem 1rem;
+    }
+
+        .empty-state i {
+            font-size: 3rem;
+            color: #d0d8f5;
+            display: block;
+            margin-bottom: 1rem;
+        }
+
+        .empty-state p {
+            font-family: 'Nunito', sans-serif;
+            color: #899bbd;
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+    /* ?? Card footer ?? */
+    .card-footer-bar {
+        padding: 0.85rem 1.5rem;
+        background: #f6f9ff;
+        border-top: 1px solid #e8eeff;
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.8rem;
+        color: #899bbd;
+    }
+</style>
+
+<!-- Breadcrumb -->
+<nav class="page-breadcrumb" aria-label="breadcrumb">
+    <a href="@Url.Action("Index", "Dashboard")">Home</a>
+    <span>/</span>
+    <span>Clients</span>
+</nav>
+
+<!-- Page header -->
+<div class="page-header">
+    <h2>Clients</h2>
+    <a href="@Url.Action("CreateClient", "Dashboard")" class="btn-add-client">
+        <i class="bi bi-person-plus-fill"></i> Add New Client
+    </a>
 </div>
 
-<div class="row">
-    <div class="col-md-12">
-        <div class="card">
-            <div class="card-body">
-                <table class="table table-striped table-hover">
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>Name</th>
-                            <th>Email</th>
-                            <th>Phone</th>
-                            <th>National ID</th>
-                            <th>Client Type</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @if (Model != null && Model.Count > 0)
-                        {
-                            @foreach (var client in Model)
-                            {
-                                <tr>
-                                    <td>@client.ClientId</td>
-                                    <td>@client.FirstName @client.LastName</td>
-                                    <td>@client.Email</td>
-                                    <td>@client.Mobile</td>
-                                    <td>@client.NationalId</td>
-                                    <td>@client.ClientType</td>
-                                    <td>
-                                        <a href="@Url.Action("ViewClient", "Dashboard", new { id = client.ClientId })" class="btn btn-sm btn-info">View</a>
-                                        <a href="@Url.Action("EditClient", "Dashboard", new { id = client.ClientId })" class="btn btn-sm btn-warning">Edit</a>
-                                        <form asp-action="DeleteClient" asp-controller="Dashboard" method="post" style="display:inline;">
-                                            <input type="hidden" name="id" value="@client.ClientId" />
-                                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this client?')">Delete</button>
-                                        </form>
-                                    </td>
-                                </tr>
-                            }
-                        }
-                        else
-                        {
-                            <tr>
-                                <td colspan="7" class="text-center text-muted py-4">No clients added yet.</td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
+<!-- Stat cards -->
+@{
+    int totalClients = Model?.Count ?? 0;
+    int individualCount = Model?.Count(c => string.Equals(c.ClientType, "Individual", StringComparison.OrdinalIgnoreCase)) ?? 0;
+    int corporateCount = Model?.Count(c => string.Equals(c.ClientType, "Corporate", StringComparison.OrdinalIgnoreCase)) ?? 0;
+}
+
+<div class="row g-3 mb-2">
+    <div class="col-sm-6 col-xl-4">
+        <div class="stat-card">
+            <div class="stat-icon blue"><i class="bi bi-people-fill"></i></div>
+            <div class="stat-info">
+                <p class="stat-value">@totalClients</p>
+                <p class="stat-label">Total Clients</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-xl-4">
+        <div class="stat-card">
+            <div class="stat-icon green"><i class="bi bi-person-check-fill"></i></div>
+            <div class="stat-info">
+                <p class="stat-value">@individualCount</p>
+                <p class="stat-label">Individual</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-xl-4">
+        <div class="stat-card">
+            <div class="stat-icon orange"><i class="bi bi-building"></i></div>
+            <div class="stat-info">
+                <p class="stat-value">@corporateCount</p>
+                <p class="stat-label">Corporate</p>
             </div>
         </div>
     </div>
 </div>
 
+<!-- Clients table card -->
+<div class="clients-card">
+    <div class="card-header">
+        <h5><i class="bi bi-people me-2" style="color:#4154f1;"></i>All Clients</h5>
+        <div class="search-wrapper">
+            <i class="bi bi-search search-icon"></i>
+            <input type="text" id="clientSearch" placeholder="Search clients…" oninput="filterClients(this.value)" />
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="clients-table" id="clientsTable">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Client</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>National ID</th>
+                    <th>Type</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Count > 0)
+                {
+                    @foreach (var client in Model)
+                    {
+                        var initials = ((client.FirstName?.Length > 0 ? client.FirstName[0].ToString() : "") +
+                        (client.LastName?.Length > 0 ? client.LastName[0].ToString() : "")).ToUpper();
+
+                        var badgeClass = client.ClientType?.ToLower() switch
+                        {
+                            "individual" => "individual",
+                            "corporate" => "corporate",
+                            "government" => "government",
+                            _ => "default"
+                        };
+
+                        <tr>
+                            <td style="color:#899bbd; font-size:0.8rem;">@client.ClientId</td>
+                            <td>
+                                <div class="client-name-cell">
+                                    <div class="client-avatar">@initials</div>
+                                    <div>
+                                        <div class="client-name">@client.FirstName @client.LastName</div>
+                                        <div class="client-id">#@client.ClientId</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>@client.Email</td>
+                            <td>@client.Mobile</td>
+                            <td>@client.NationalId</td>
+                            <td>
+                                <span class="badge-type @badgeClass">@client.ClientType</span>
+                            </td>
+                            <td>
+                                <div style="display:flex; gap:5px; flex-wrap:wrap;">
+                                    <a href="@Url.Action("ViewClient", "Dashboard", new { id = client.ClientId })"
+                                       class="btn-action view">
+                                        <i class="bi bi-eye-fill"></i> View
+                                    </a>
+                                    <a href="@Url.Action("EditClient", "Dashboard", new { id = client.ClientId })"
+                                       class="btn-action edit">
+                                        <i class="bi bi-pencil-fill"></i> Edit
+                                    </a>
+                                    <form asp-action="DeleteClient" asp-controller="Dashboard" method="post" style="display:inline;">
+                                        <input type="hidden" name="id" value="@client.ClientId" />
+                                        <button type="submit" class="btn-action delete"
+                                                onclick="return confirm('Are you sure you want to delete this client?')">
+                                            <i class="bi bi-trash-fill"></i> Delete
+                                        </button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="7">
+                            <div class="empty-state">
+                                <i class="bi bi-people"></i>
+                                <p>No clients added yet. Click <strong>Add New Client</strong> to get started.</p>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    @if (Model != null && Model.Count > 0)
+    {
+        <div class="card-footer-bar">
+            Showing <strong>@Model.Count</strong> client@(Model.Count == 1 ? "" : "s")
+        </div>
+    }
+</div>
+
+<script>
+    function filterClients(query) {
+        const q = query.toLowerCase().trim();
+        const rows = document.querySelectorAll('#clientsTable tbody tr');
+        rows.forEach(row => {
+            const text = row.textContent.toLowerCase();
+            row.style.display = (!q || text.includes(q)) ? '' : 'none';
+        });
+    }
+</script>
