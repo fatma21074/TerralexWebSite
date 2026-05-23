@@ -1,4 +1,4 @@
-@model Client
+ï»¿@model Client
 
 @{
     ViewData["Title"] = "Add New Client";
@@ -333,7 +333,7 @@
 
             <!-- Form body -->
             <div class="form-card-body">
-                <form asp-action="CreateClient" asp-controller="Dashboard" method="post" enctype="multipart/form-data">
+                <form id="clientForm" asp-action="CreateClient" asp-controller="Dashboard" method="post" enctype="multipart/form-data">
                     <div asp-validation-summary="ModelOnly" class="validation-summary-errors"></div>
 
                     <!-- Personal info -->
@@ -392,7 +392,7 @@
 
                     <div class="mb-3">
                         <label asp-for="Address" class="form-label"></label>
-                        <textarea asp-for="Address" class="form-control" rows="3" placeholder="Street, City, Country…"></textarea>
+                        <textarea asp-for="Address" class="form-control" rows="3" placeholder="Street, City, Countryï¿½"></textarea>
                         <span asp-validation-for="Address" class="text-danger"></span>
                     </div>
 
@@ -409,7 +409,7 @@
                                        onchange="showFileName(this, 'frontName')" />
                                 <div class="upload-icon"><i class="bi bi-cloud-arrow-up-fill"></i></div>
                                 <span class="upload-label">Click to upload</span>
-                                <div class="upload-hint">JPG, PNG, WEBP — front side of ID</div>
+                                <div class="upload-hint">JPG, PNG, WEBP ï¿½ front side of ID</div>
                                 <div class="file-name" id="frontName"></div>
                             </div>
                         </div>
@@ -420,7 +420,7 @@
                                        onchange="showFileName(this, 'backName')" />
                                 <div class="upload-icon"><i class="bi bi-cloud-arrow-up-fill"></i></div>
                                 <span class="upload-label">Click to upload</span>
-                                <div class="upload-hint">JPG, PNG, WEBP — back side of ID</div>
+                                <div class="upload-hint">JPG, PNG, WEBP ï¿½ back side of ID</div>
                                 <div class="file-name" id="backName"></div>
                             </div>
                         </div>
@@ -432,7 +432,7 @@
             <!-- Card footer with actions -->
             <div class="form-card-footer">
                 <button type="submit" form="clientForm" class="btn-save"
-                        onclick="document.querySelector('form').submit();">
+                        >
                     <i class="bi bi-check2-circle"></i> Save Client
                 </button>
                 <a href="@Url.Action("Clients", "Dashboard")" class="btn-cancel">
