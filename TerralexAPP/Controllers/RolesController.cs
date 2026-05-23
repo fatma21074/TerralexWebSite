@@ -51,22 +51,22 @@ namespace TerralexAPP.Controllers
 
         // Edit existing role details   
         [HttpGet]
-        public async Task<IActionResult> Edit(string id)
+        public async Task<IActionResult> Edit(int id)
         {
-            var role = await _roleManager.FindByIdAsync(id);
+            var role = await _roleManager.FindByIdAsync(id.ToString());
             if (role == null) return NotFound();
             return View(role);
         }
         // Update role details
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, ApplicationRole role)
+        public async Task<IActionResult> Edit(int id, ApplicationRole role)
         {
             if (id != role.Id) return NotFound();
 
             if (ModelState.IsValid)
             {
-                var existingRole = await _roleManager.FindByIdAsync(id);
+                var existingRole = await _roleManager.FindByIdAsync(id.ToString());
                 if (existingRole == null) return NotFound();
 
                 existingRole.Name = role.Name;
@@ -89,9 +89,9 @@ namespace TerralexAPP.Controllers
         // Delete a role
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Delete(string id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var role = await _roleManager.FindByIdAsync(id);
+            var role = await _roleManager.FindByIdAsync(id.ToString());
             if (role != null)
             {
                 await _roleManager.DeleteAsync(role);
@@ -101,4 +101,4 @@ namespace TerralexAPP.Controllers
         }
     }
 }
-}
+
