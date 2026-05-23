@@ -1,0 +1,84 @@
+@model Client
+
+@{
+    ViewData["Title"] = "Client Details";
+    Layout = "_DashboardLayout";
+}
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <div class="card">
+            <div class="card-header">
+                <h4>Client Details</h4>
+            </div>
+            <div class="card-body">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <h6 class="text-muted">First Name</h6>
+                        <p>@Model.FirstName</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="text-muted">Last Name</h6>
+                        <p>@Model.LastName</p>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <h6 class="text-muted">National ID</h6>
+                        <p>@Model.NationalId</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="text-muted">Mobile</h6>
+                        <p>@Model.Mobile</p>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <h6 class="text-muted">Email</h6>
+                        <p>@Model.Email</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="text-muted">Client Type</h6>
+                        <p>@Model.ClientType</p>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <h6 class="text-muted">Address</h6>
+                    <p>@(string.IsNullOrEmpty(Model.Address) ? "N/A" : Model.Address)</p>
+                </div>
+
+                @if (!string.IsNullOrEmpty(Model.IDImageFrontPath) || !string.IsNullOrEmpty(Model.IDImageBackPath))
+                {
+                    <div class="row mb-3">
+                        @if (!string.IsNullOrEmpty(Model.IDImageFrontPath))
+                        {
+                            <div class="col-md-6">
+                                <h6 class="text-muted">ID Front Image</h6>
+                                <img src="@Model.IDImageFrontPath" alt="ID Front" class="img-fluid" style="max-height: 300px;" />
+                            </div>
+                        }
+                        @if (!string.IsNullOrEmpty(Model.IDImageBackPath))
+                        {
+                            <div class="col-md-6">
+                                <h6 class="text-muted">ID Back Image</h6>
+                                <img src="@Model.IDImageBackPath" alt="ID Back" class="img-fluid" style="max-height: 300px;" />
+                            </div>
+                        }
+                    </div>
+                }
+
+                <div class="d-flex gap-2">
+                    <a href="@Url.Action("EditClient", "Dashboard", new { id = Model.ClientId })" class="btn btn-warning">Edit</a>
+                    <form asp-action="DeleteClient" asp-controller="Dashboard" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@Model.ClientId" />
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure?')">Delete</button>
+                    </form>
+                    <a href="@Url.Action("Clients", "Dashboard")" class="btn btn-secondary">Back to Clients</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
