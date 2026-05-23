@@ -1,0 +1,197 @@
+@model TerralexApp.Models.Property
+@{
+    ViewData["Title"] = "Property Profile";
+    Layout = "_DashboardLayout";
+}
+
+<div class="row g-4">
+    <!-- Left Column: Details & Docs -->
+    <div class="col-lg-8">
+        <!-- Property Details Card -->
+        <div class="card border-0 shadow-sm rounded-4 p-4 mb-4">
+            <div class="d-flex justify-content-between align-items-start border-bottom pb-3 mb-4">
+                <div>
+                    <span class="badge bg-primary px-3 py-2 rounded-pill mb-2">@Model.PropertyType.Name</span>
+                    <h2 class="fw-bold text-dark mb-1">@Model.District</h2>
+                    <p class="text-muted mb-0"><i class="bi bi-geo-alt-fill text-danger me-1"></i>@Model.Address, @Model.City.Name</p>
+                </div>
+                <div class="d-flex gap-2">
+                    <a href="@Url.Action("Edit", "Properties", new { id = Model.PropertyId })" class="btn btn-premium btn-premium-warning text-white">
+                        <i class="bi bi-pencil-fill"></i> Edit
+                    </a>
+                    <a href="@Url.Action("Index", "Properties")" class="btn btn-premium btn-premium-secondary">
+                        Back
+                    </a>
+                </div>
+            </div>
+
+            <!-- Structural Details -->
+            <div class="row g-3 mb-4 text-center">
+                <div class="col-md-3">
+                    <div class="p-3 bg-light rounded-3 border">
+                        <i class="bi bi-aspect-ratio text-primary fs-3 mb-2 d-block"></i>
+                        <span class="d-block text-muted fs-8">AREA</span>
+                        <strong class="text-dark fs-5">@Model.Area.ToString("N0") Sqm</strong>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-3 bg-light rounded-3 border">
+                        <i class="bi bi-door-closed text-success fs-3 mb-2 d-block"></i>
+                        <span class="d-block text-muted fs-8">ROOMS</span>
+                        <strong class="text-dark fs-5">@(Model.Rooms?.ToString() ?? "N/A")</strong>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-3 bg-light rounded-3 border">
+                        <i class="bi bi-water text-info fs-3 mb-2 d-block"></i>
+                        <span class="d-block text-muted fs-8">BATHROOMS</span>
+                        <strong class="text-dark fs-5">@(Model.Bathrooms?.ToString() ?? "N/A")</strong>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-3 bg-light rounded-3 border">
+                        <i class="bi bi-layers text-warning fs-3 mb-2 d-block"></i>
+                        <span class="d-block text-muted fs-8">FLOORS</span>
+                        <strong class="text-dark fs-5">@(Model.Floors?.ToString() ?? "N/A")</strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Description -->
+            <h5 class="fw-bold text-dark border-bottom pb-2 mb-3">Description</h5>
+            <p class="text-dark leading-relaxed">
+                @if (string.IsNullOrEmpty(Model.Description))
+                {
+                    <span class="text-muted italic">No description provided for this property profile.</span>
+                }
+                else
+                {
+                    @Model.Description
+                }
+            </p>
+        </div>
+
+        <!-- Property Transactions History -->
+        <div class="card border-0 shadow-sm rounded-4 p-4">
+            <h5 class="fw-bold text-dark border-bottom pb-2 mb-3"><i class="bi bi-activity text-success me-2"></i>Linked Transaction History</h5>
+            @if (Model.Transactions == null || !Model.Transactions.Any(t => !t.IsDeleted))
+            {
+                <p class="text-muted mb-0">No transaction logs recorded for this property.</p>
+            }
+            else
+            {
+                <div class="table-responsive">
+                    <table class="table align-middle table-hover mb-0">
+                        <thead>
+                            <tr class="text-muted">
+                                <th>Client Name</th>
+                                <th>Start Date</th>
+                                <th>Fees</th>
+                                <th>Status</th>
+                                <th class="text-end">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var trans in Model.Transactions.Where(t => !t.IsDeleted))
+                            {
+                                <tr>
+                                    <td class="fw-semibold text-dark">
+                                        @trans.Client.FirstName @trans.Client.LastName
+                                    </td>
+                                    <td>
+                                        @trans.StarDate.ToString("d")
+                                    </td>
+                                    <td>
+                                        @if (trans.TotalFees.HasValue)
+                                        {
+                                            <span>$@trans.TotalFees.Value.ToString("N2")</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">—</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        @{
+                                            var badgeClass = "badge-primary";
+                                            if (trans.TransactionStatus.Name == "Registered") badgeClass = "badge-success";
+                                            else if (trans.TransactionStatus.Name == "Closed") badgeClass = "badge-danger";
+                                            else if (trans.TransactionStatus.Name == "In Progress") badgeClass = "badge-warning";
+                                            else if (trans.TransactionStatus.Name == "Pending Signature") badgeClass = "badge-info";
+                                        }
+                                        <span class="badge-premium @badgeClass">@trans.TransactionStatus.Name</span>
+                                    </td>
+                                    <td class="text-end">
+                                        <a href="@Url.Action("Details", "Transactions", new { id = trans.TransactionId })" class="btn btn-sm btn-outline-secondary">View Details</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- Right Column: Photos & Docs -->
+    <div class="col-lg-4">
+        <!-- Photo Gallery Card -->
+        <div class="card border-0 shadow-sm rounded-4 p-4 mb-4">
+            <h5 class="fw-bold text-dark border-bottom pb-2 mb-3"><i class="bi bi-images text-primary me-2"></i>Photo Gallery</h5>
+            @if (Model.PropertyImages == null || !Model.PropertyImages.Any(i => !i.IsDeleted))
+            {
+                <div class="text-center py-4 text-muted border rounded-3 bg-light">
+                    <i class="bi bi-image display-6 mb-2"></i>
+                    <p class="mb-0 fs-8">No photos uploaded</p>
+                </div>
+            }
+            else
+            {
+                <div class="row g-2">
+                    @foreach (var img in Model.PropertyImages.Where(i => !i.IsDeleted))
+                    {
+                        <div class="col-6">
+                            <a href="@img.ImagePath" target="_blank">
+                                <img src="@img.ImagePath" class="w-100 rounded-3 border object-fit-cover shadow-sm transition-smooth hover-scale" style="height: 100px;" alt="Property Image" />
+                            </a>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+
+        <!-- Deeds / Legal Docs Card -->
+        <div class="card border-0 shadow-sm rounded-4 p-4">
+            <h5 class="fw-bold text-dark border-bottom pb-2 mb-3"><i class="bi bi-file-earmark-lock text-warning me-2"></i>Legal Documents</h5>
+            @if (Model.PropertyDocumnets == null || !Model.PropertyDocumnets.Any(d => !d.IsDeleted))
+            {
+                <div class="text-center py-4 text-muted border rounded-3 bg-light">
+                    <i class="bi bi-file-earmark-excel display-6 mb-2"></i>
+                    <p class="mb-0 fs-8">No deeds attached</p>
+                </div>
+            }
+            else
+            {
+                <div class="list-group list-group-flush">
+                    @foreach (var doc in Model.PropertyDocumnets.Where(d => !d.IsDeleted))
+                    {
+                        <a href="@doc.DoucmentPath" target="_blank" class="list-group-item list-group-item-action border-0 px-0 d-flex align-items-center py-2 text-dark fs-7">
+                            <i class="bi bi-file-earmark-pdf-fill text-danger me-2 fs-5"></i>
+                            <span class="text-truncate flex-grow-1">@System.IO.Path.GetFileName(doc.DoucmentPath)</span>
+                            <i class="bi bi-download text-muted"></i>
+                        </a>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .fs-8 { font-size: 0.72rem; }
+    .fs-7 { font-size: 0.85rem; }
+    .object-fit-cover { object-fit: cover; }
+    .hover-scale:hover {
+        transform: scale(1.05);
+    }
+</style>

@@ -1,0 +1,165 @@
+@model TerralexApp.Models.Property;
+@using System.IO;
+
+@{
+    ViewData["Title"] = "Edit Property";
+    Layout = "_DashboardLayout";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card border-0 shadow-sm rounded-4 overflow-hidden mb-4">
+            <div class="card-header bg-white border-0 py-3 px-4 d-flex justify-content-between align-items-center">
+                <h5 class="mb-0 text-dark fw-bold"><i class="bi bi-pencil-square me-2 text-warning"></i>Modify Property Details</h5>
+                <a href="@Url.Action("Index", "Properties")" class="btn btn-premium btn-premium-secondary py-1 px-3 fs-7">
+                    <i class="bi bi-arrow-left"></i> Back to Catalog
+                </a>
+            </div>
+            
+            <div class="card-body p-4 pt-0">
+                <form asp-controller="Properties" asp-action="Edit" method="post" enctype="multipart/form-data" class="needs-validation">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                    <input type="hidden" asp-for="PropertyId" />
+
+                    <!-- General Info -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <label asp-for="CityId" class="form-label-premium">City *</label>
+                            <select asp-for="CityId" asp-items="ViewBag.Cities" class="form-select form-control-premium" required>
+                                <option value="">Select City</option>
+                            </select>
+                            <span asp-validation-for="CityId" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="PropertyTypeId" class="form-label-premium">Property Type *</label>
+                            <select asp-for="PropertyTypeId" asp-items="ViewBag.PropertyTypes" class="form-select form-control-premium" required>
+                                <option value="">Select Type</option>
+                            </select>
+                            <span asp-validation-for="PropertyTypeId" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="District" class="form-label-premium">District *</label>
+                            <input asp-for="District" class="form-control form-control-premium" required />
+                            <span asp-validation-for="District" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="Documents" class="form-label-premium">Document Code/Status (Max 10 chars) *</label>
+                            <input asp-for="Documents" class="form-control form-control-premium" required maxLength="10" />
+                            <span asp-validation-for="Documents" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="Address" class="form-label-premium">Full Address *</label>
+                            <textarea asp-for="Address" rows="2" class="form-control form-control-premium" required></textarea>
+                            <span asp-validation-for="Address" class="text-danger fs-8"></span>
+                        </div>
+                    </div>
+
+                    <!-- Specs -->
+                    <h6 class="fw-bold text-dark border-bottom pb-2 mb-3"><i class="bi bi-rulers me-2 text-muted"></i>Property Specifications</h6>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-3">
+                            <label asp-for="Area" class="form-label-premium">Area (Sqm) *</label>
+                            <input asp-for="Area" type="number" step="0.01" class="form-control form-control-premium" required />
+                            <span asp-validation-for="Area" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-3">
+                            <label asp-for="Rooms" class="form-label-premium">Rooms</label>
+                            <input asp-for="Rooms" type="number" class="form-control form-control-premium" />
+                            <span asp-validation-for="Rooms" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-3">
+                            <label asp-for="Bathrooms" class="form-label-premium">Bathrooms</label>
+                            <input asp-for="Bathrooms" type="number" class="form-control form-control-premium" />
+                            <span asp-validation-for="Bathrooms" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-3">
+                            <label asp-for="Floors" class="form-label-premium">Floors</label>
+                            <input asp-for="Floors" type="number" class="form-control form-control-premium" />
+                            <span asp-validation-for="Floors" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="Description" class="form-label-premium">Description</label>
+                            <textarea asp-for="Description" rows="3" class="form-control form-control-premium"></textarea>
+                            <span asp-validation-for="Description" class="text-danger fs-8"></span>
+                        </div>
+                    </div>
+
+                    <!-- Uploads -->
+                    <h6 class="fw-bold text-dark border-bottom pb-2 mb-3"><i class="bi bi-cloud-arrow-up me-2 text-muted"></i>Add New Files</h6>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <label class="form-label-premium">Add Photos</label>
+                            <input type="file" name="newImageFiles" multiple class="form-control form-control-premium" accept="image/*" />
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label-premium">Add Documents/Deeds</label>
+                            <input type="file" name="newDocumentFiles" multiple class="form-control form-control-premium" accept=".pdf,.doc,.docx,.jpg,.png" />
+                        </div>
+                    </div>
+
+                    <!-- Form Buttons -->
+                    <div class="d-flex justify-content-end gap-2 border-top pt-3">
+                        <a href="@Url.Action("Index", "Properties")" class="btn btn-premium btn-premium-secondary">Cancel</a>
+                        <button type="submit" class="btn btn-premium btn-premium-warning px-4 text-white">
+                            <i class="bi bi-check-lg"></i> Update Property
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Files Management Sections -->
+        <div class="card border-0 shadow-sm rounded-4 p-4 mb-4">
+            <h6 class="fw-bold text-dark border-bottom pb-2 mb-3"><i class="bi bi-images me-2 text-muted"></i>Manage Photos</h6>
+            @if (Model.PropertyImages == null || !Model.PropertyImages.Any(i => !i.IsDeleted))
+            {
+                <p class="text-muted mb-0">No photos registered for this property.</p>
+            }
+            else
+            {
+                <div class="row g-3">
+                    @foreach (var img in Model.PropertyImages.Where(i => !i.IsDeleted))
+                    {
+                        <div class="col-md-3 text-center">
+                            <div class="position-relative border rounded-3 p-1 mb-2 bg-light" style="height: 120px;">
+                                <img src="@img.ImagePath" class="w-100 h-100 object-fit-cover rounded-2" alt="Property Photo" />
+                            </div>
+                            <form method="post" asp-controller="Properties" asp-action="DeleteImage" asp-route-imageId="@img.PropertyImageId" asp-route-propertyId="@Model.PropertyId">
+                                <button type="submit" class="btn btn-xs btn-outline-danger py-1 px-3 w-100" onclick="return confirm('Are you sure you want to delete this photo?');">Remove</button>
+                            </form>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+
+        <div class="card border-0 shadow-sm rounded-4 p-4">
+            <h6 class="fw-bold text-dark border-bottom pb-2 mb-3"><i class="bi bi-file-earmark-medical me-2 text-muted"></i>Manage Deeds / Documents</h6>
+            @if (Model.PropertyDocumnets == null || !Model.PropertyDocumnets.Any(d => !d.IsDeleted))
+            {
+                <p class="text-muted mb-0">No legal documents registered for this property.</p>
+            }
+            else
+            {
+                <div class="list-group list-group-flush">
+                    @foreach (var doc in Model.PropertyDocumnets.Where(d => !d.IsDeleted))
+                    {
+                        <div class="list-group-item d-flex justify-content-between align-items-center bg-transparent py-3 px-0 border-bottom">
+                            <div>
+                                <i class="bi bi-file-pdf-fill text-danger me-2 fs-5"></i>
+                                <a href="@doc.DoucmentPath" target="_blank" class="fw-semibold text-decoration-none">@System.IO.Path.GetFileName(doc.DoucmentPath)</a>
+                            </div>
+                            <form method="post" asp-controller="Properties" asp-action="DeleteDocument" asp-route-documentId="@doc.PropertyDocumentId" asp-route-propertyId="@Model.PropertyId" class="mb-0">
+                                <button type="submit" class="btn btn-sm btn-outline-danger px-3" onclick="return confirm('Are you sure you want to delete this document?');">Delete</button>
+                            </form>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

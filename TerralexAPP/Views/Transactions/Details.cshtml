@@ -1,0 +1,268 @@
+@model TerralexApp.Models.Transaction
+@{
+    ViewData["Title"] = "Transaction Detail Profile";
+    Layout = "_DashboardLayout";
+}
+
+<!-- Summary Card & Action Buttons -->
+<div class="card border-0 shadow-sm rounded-4 p-4 mb-4">
+    <div class="d-flex justify-content-between align-items-start border-bottom pb-3 mb-4">
+        <div>
+            <span class="badge bg-secondary px-3 py-2 rounded-pill mb-2">Deal #@Model.TransactionId</span>
+            <h2 class="fw-bold text-dark mb-1">@Model.ServiceType.Name</h2>
+            <p class="text-muted mb-0"><i class="bi bi-person text-muted me-1"></i>Client: <strong>@Model.Client.FirstName @Model.Client.LastName</strong> | Property: <strong>@Model.Property.District, @Model.Property.Address</strong></p>
+        </div>
+        <div class="d-flex gap-2">
+            <a href="@Url.Action("Edit", "Transactions", new { id = Model.TransactionId })" class="btn btn-premium btn-premium-warning text-white">
+                <i class="bi bi-pencil-fill"></i> Edit
+            </a>
+            @if (Model.Payment == null)
+            {
+                <a href="@Url.Action("Create", "Payments", new { transactionId = Model.TransactionId })" class="btn btn-premium btn-premium-success text-white">
+                    <i class="bi bi-cash-coin"></i> Record Payment
+                </a>
+            }
+            <a href="@Url.Action("Index", "Transactions")" class="btn btn-premium btn-premium-secondary">
+                Back
+            </a>
+        </div>
+    </div>
+
+    <!-- Stats Grid -->
+    <div class="row g-3 text-center">
+        <div class="col-md-3">
+            <div class="p-3 bg-light rounded-3 border">
+                <span class="d-block text-muted fs-8">LAWYER</span>
+                <strong class="text-dark fs-6">@Model.Stuff.Name</strong>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="p-3 bg-light rounded-3 border">
+                <span class="d-block text-muted fs-8">START DATE</span>
+                <strong class="text-dark fs-6">@Model.StarDate.ToString("d")</strong>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="p-3 bg-light rounded-3 border">
+                <span class="d-block text-muted fs-8">TARGET END DATE</span>
+                <strong class="text-dark fs-6 text-danger">@Model.EndDate.ToString("d")</strong>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="p-3 bg-light rounded-3 border">
+                <span class="d-block text-muted fs-8">TOTAL CONTRACT VALUE</span>
+                <strong class="text-dark fs-6 text-success">$@((Model.TotalFees ?? 0).ToString("N2"))</strong>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row g-4">
+    <!-- Left Column: Timeline Workflow & Stages -->
+    <div class="col-lg-6">
+        <div class="card border-0 shadow-sm rounded-4 p-4">
+            <h5 class="fw-bold text-dark border-bottom pb-2 mb-4"><i class="bi bi-git me-2 text-primary"></i>Transaction Workflow Timeline</h5>
+            
+            <ul class="timeline-premium">
+                @foreach (var stage in Model.TransactionsStages.OrderBy(s => s.TransactionsStageId))
+                {
+                    var isCompleted = stage.StageStatus == true;
+                    var timelineClass = isCompleted ? "completed" : "active";
+                    <li class="timeline-item-premium @timelineClass">
+                        <div class="timeline-badge-premium"></div>
+                        <div class="timeline-content-premium">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h6 class="fw-bold text-dark mb-0">@stage.StageName</h6>
+                                <span class="badge @(isCompleted ? "bg-success" : "bg-warning") px-2 py-1 fs-8">
+                                    @(isCompleted ? "Completed" : "In Progress")
+                                </span>
+                            </div>
+                            <p class="text-muted fs-7 mb-2">@stage.Notes</p>
+                            
+                            <div class="d-flex justify-content-between align-items-center border-top pt-2">
+                                <small class="text-muted fs-8">Target: @stage.ExpectedEndDate.ToString("d")</small>
+                                @if (isCompleted)
+                                {
+                                    <small class="text-success fs-8">Done: @stage.CompletedDate.ToString("d")</small>
+                                }
+                            </div>
+                            
+                            <!-- Toggle Button -->
+                            <div class="mt-2 text-end">
+                                <button type="button" class="btn btn-xs btn-outline-secondary py-0 px-2" data-bs-toggle="collapse" data-bs-target="#updateStageForm-@stage.TransactionsStageId">
+                                    Update
+                                </button>
+                            </div>
+                            
+                            <!-- Toggle Form -->
+                            <div class="collapse mt-2" id="updateStageForm-@stage.TransactionsStageId">
+                                <form method="post" asp-controller="Transactions" asp-action="UpdateStageStatus" class="bg-light p-3 rounded-3 border">
+                                    <input type="hidden" name="stageId" value="@stage.TransactionsStageId" />
+                                    <input type="hidden" name="transactionId" value="@Model.TransactionId" />
+                                    <div class="form-check form-switch mb-2">
+                                        <input class="form-check-input" type="checkbox" name="isCompleted" value="true" @(isCompleted ? "checked" : "") id="switch-@stage.TransactionsStageId">
+                                        <label class="form-check-label text-dark fw-medium" for="switch-@stage.TransactionsStageId">Mark as Completed</label>
+                                    </div>
+                                    <div class="mb-2">
+                                        <input type="text" name="notes" class="form-control form-control-sm" placeholder="Stage details/notes..." value="@stage.Notes" />
+                                    </div>
+                                    <button type="submit" class="btn btn-xs btn-primary">Save</button>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+
+    <!-- Right Column: Financial Fees, Documents & Payments -->
+    <div class="col-lg-6">
+        <!-- Payments Status Panel -->
+        <div class="card border-0 shadow-sm rounded-4 p-4 mb-4">
+            <h5 class="fw-bold text-dark border-bottom pb-2 mb-3"><i class="bi bi-wallet2 text-info me-2"></i>Financial Payment Record</h5>
+            @if (Model.Payment == null)
+            {
+                <div class="alert alert-warning mb-0 border-0 rounded-3">
+                    <i class="bi bi-exclamation-triangle me-2"></i>No payment recorded for this transaction. Record payment to clear fees.
+                </div>
+            }
+            else
+            {
+                <div class="d-flex justify-content-between align-items-center bg-light p-3 rounded-3 border">
+                    <div>
+                        <div class="fw-bold text-dark">Receipt #@Model.Payment.ReceiptNumber</div>
+                        <small class="text-muted">Cleared Date: @Model.Payment.PaymentDate.ToString("g")</small>
+                    </div>
+                    <div class="text-end">
+                        <span class="badge bg-success px-3 py-2 rounded-pill mb-1">Paid</span>
+                        <div class="fw-bold text-success fs-5">$@Model.Payment.TotalAmount.ToString("N2")</div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- Custom Fees List -->
+        <div class="card border-0 shadow-sm rounded-4 p-4 mb-4">
+            <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-3">
+                <h5 class="fw-bold text-dark mb-0"><i class="bi bi-receipt text-warning me-2"></i>Transaction Custom Fees</h5>
+                <button type="button" class="btn btn-xs btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#addFeeForm">
+                    Add Item
+                </button>
+            </div>
+            
+            <!-- Add Fee Form -->
+            <div class="collapse mb-3" id="addFeeForm">
+                <form method="post" asp-controller="Transactions" asp-action="AddFee" class="bg-light p-3 rounded-3 border">
+                    <input type="hidden" name="transactionId" value="@Model.TransactionId" />
+                    <div class="row g-2">
+                        <div class="col-md-7">
+                            <input type="text" name="itemName" class="form-control form-control-sm" placeholder="Fee Item Name (e.g. Stamps, Land Tax)..." required />
+                        </div>
+                        <div class="col-md-3">
+                            <input type="number" step="0.01" name="fees" class="form-control form-control-sm" placeholder="Fee ($)..." required />
+                        </div>
+                        <div class="col-md-2">
+                            <button type="submit" class="btn btn-sm btn-primary w-100">Add</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            @if (Model.TransactionFees == null || !Model.TransactionFees.Any(f => !f.IsDeleted))
+            {
+                <p class="text-muted mb-0">No custom fees recorded yet.</p>
+            }
+            else
+            {
+                <div class="list-group list-group-flush">
+                    @foreach (var fee in Model.TransactionFees.Where(f => !f.IsDeleted))
+                    {
+                        <div class="list-group-item d-flex justify-content-between align-items-center bg-transparent py-2 px-0">
+                            <span class="text-dark">@fee.ItemName</span>
+                            <div class="d-flex align-items-center gap-3">
+                                <span class="fw-semibold text-dark">$@fee.Fees.ToString("N2")</span>
+                                <form method="post" asp-controller="Transactions" asp-action="DeleteFee" asp-route-feeId="@fee.TransactionFeeId" asp-route-transactionId="@Model.TransactionId" class="mb-0">
+                                    <button type="submit" class="btn btn-link text-danger p-0" onclick="return confirm('Deduct this fee?');"><i class="bi bi-trash"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+
+        <!-- Documents List -->
+        <div class="card border-0 shadow-sm rounded-4 p-4">
+            <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-3">
+                <h5 class="fw-bold text-dark mb-0"><i class="bi bi-folder-symlink text-success me-2"></i>Signed Contracts & Documents</h5>
+                <button type="button" class="btn btn-xs btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#uploadDocForm">
+                    Attach File
+                </button>
+            </div>
+
+            <!-- Upload Document Form -->
+            <div class="collapse mb-3" id="uploadDocForm">
+                <form method="post" asp-controller="Transactions" asp-action="AddDocument" enctype="multipart/form-data" class="bg-light p-3 rounded-3 border">
+                    <input type="hidden" name="transactionId" value="@Model.TransactionId" />
+                    <div class="mb-2">
+                        <label class="form-label fs-8 text-dark mb-1">Document Display Name *</label>
+                        <input type="text" name="documentName" class="form-control form-control-sm" placeholder="e.g. Signed Sales Agreement" required />
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label fs-8 text-dark mb-1">Document Category/Type</label>
+                        <input type="text" name="documentType" class="form-control form-control-sm" placeholder="e.g. Sales Contract" />
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label fs-8 text-dark mb-1">Template Association *</label>
+                        <select name="templateId" asp-items="ViewBag.Templates" class="form-select form-select-sm" required>
+                            <option value="">Select template</option>
+                        </select>
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label fs-8 text-dark mb-1">File *</label>
+                        <input type="file" name="file" class="form-control form-control-sm" required />
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label fs-8 text-dark mb-1">Notes</label>
+                        <input type="text" name="notes" class="form-control form-control-sm" placeholder="e.g. Copy kept in drawer 3" />
+                    </div>
+                    <button type="submit" class="btn btn-sm btn-primary w-100">Upload & Attach</button>
+                </form>
+            </div>
+
+            @if (Model.TransactionDocuments == null || !Model.TransactionDocuments.Any(d => !d.IsDeleted))
+            {
+                <p class="text-muted mb-0">No contract files attached yet.</p>
+            }
+            else
+            {
+                <div class="list-group list-group-flush">
+                    @foreach (var doc in Model.TransactionDocuments.Where(d => !d.IsDeleted))
+                    {
+                        <div class="list-group-item d-flex justify-content-between align-items-center bg-transparent py-3 px-0 border-bottom">
+                            <div>
+                                <i class="bi bi-file-earmark-check-fill text-success me-2 fs-5"></i>
+                                <a href="@doc.FilePath" target="_blank" class="fw-semibold text-decoration-none">@doc.DocumentName</a>
+                                <div class="text-muted fs-8">Type: @doc.DocumentType | Associated Template: @doc.Template.TemplateName</div>
+                            </div>
+                            <form method="post" asp-controller="Transactions" asp-action="DeleteDocument" asp-route-documentId="@doc.TransactionDocument_Id" asp-route-transactionId="@Model.TransactionId" class="mb-0">
+                                <button type="submit" class="btn btn-sm btn-outline-danger px-3" onclick="return confirm('Remove this contract document?');">Remove</button>
+                            </form>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .fs-7 { font-size: 0.85rem; }
+    .fs-8 { font-size: 0.72rem; }
+    .btn-xs {
+        padding: 2px 8px;
+        font-size: 0.75rem;
+        border-radius: 4px;
+    }
+</style>

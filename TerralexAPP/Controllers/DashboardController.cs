@@ -17,9 +17,35 @@ namespace TerralexAPP.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var activeStatusIds = await _context.TransactionStatuses
+                .Where(s => s.Name != "Closed" && !s.IsDeleted)
+                .Select(s => s.TransactionStatusId)
+                .ToListAsync();
+
+            var model = new DashboardViewModel
+            {
+                TotalClients = await _context.Clients.CountAsync(c => !c.IsDeleted),
+                TotalProperties = await _context.Properties.CountAsync(p => !p.IsDeleted),
+                ActiveTransactions = await _context.Transactions.CountAsync(t => !t.IsDeleted && activeStatusIds.Contains(t.TransactionStatusId)),
+                TotalRevenue = await _context.Payments.Where(p => !p.IsDeleted).SumAsync(p => p.TotalAmount),
+                UpcomingAppointments = await _context.Appointments
+                    .Include(a => a.Client)
+                    .Where(a => !a.IsDeleted && a.AppointmentDate >= DateTime.Today)
+                    .OrderBy(a => a.AppointmentDate)
+                    .Take(5)
+                    .ToListAsync(),
+                RecentTransactions = await _context.Transactions
+                    .Include(t => t.Client)
+                    .Include(t => t.Property)
+                    .Include(t => t.TransactionStatus)
+                    .Where(t => !t.IsDeleted)
+                    .OrderByDescending(t => t.StarDate)
+                    .Take(5)
+                    .ToListAsync()
+            };
+            return View(model);
         }
 
         public IActionResult Clients()

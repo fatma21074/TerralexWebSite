@@ -76,7 +76,8 @@ namespace TerralexAPP
             {
                 var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<ApplicationRole>>();
                 var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
-                await SeedData.InitializeAsync(roleManager, userManager);
+                var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+                await SeedData.InitializeAsync(roleManager, userManager, context);
             }
 
 

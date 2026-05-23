@@ -1,0 +1,114 @@
+@model TerralexApp.Models.Property
+@{
+    ViewData["Title"] = "Add Property";
+    Layout = "_DashboardLayout";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+            <div class="card-header bg-white border-0 py-3 px-4 d-flex justify-content-between align-items-center">
+                <h5 class="mb-0 text-dark fw-bold"><i class="bi bi-plus-circle me-2 text-success"></i>Register Property Transaction</h5>
+                <a href="@Url.Action("Index", "Properties")" class="btn btn-premium btn-premium-secondary py-1 px-3 fs-7">
+                    <i class="bi bi-arrow-left"></i> Back to Catalog
+                </a>
+            </div>
+            
+            <div class="card-body p-4 pt-0">
+                <form asp-controller="Properties" asp-action="Create" method="post" enctype="multipart/form-data" class="needs-validation">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <!-- General Info -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <label asp-for="CityId" class="form-label-premium">City *</label>
+                            <select asp-for="CityId" asp-items="ViewBag.Cities" class="form-select form-control-premium" required>
+                                <option value="">Select City</option>
+                            </select>
+                            <span asp-validation-for="CityId" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="PropertyTypeId" class="form-label-premium">Property Type *</label>
+                            <select asp-for="PropertyTypeId" asp-items="ViewBag.PropertyTypes" class="form-select form-control-premium" required>
+                                <option value="">Select Type</option>
+                            </select>
+                            <span asp-validation-for="PropertyTypeId" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="District" class="form-label-premium">District *</label>
+                            <input asp-for="District" class="form-control form-control-premium" placeholder="e.g. Nasr City" required />
+                            <span asp-validation-for="District" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="Documents" class="form-label-premium">Document Code/Status (Max 10 chars) *</label>
+                            <input asp-for="Documents" value="Active" class="form-control form-control-premium" placeholder="e.g. Active, Signed" required maxLength="10" />
+                            <span asp-validation-for="Documents" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="Address" class="form-label-premium">Full Address *</label>
+                            <textarea asp-for="Address" rows="2" class="form-control form-control-premium" placeholder="Street number, Building name, Apartment number..." required></textarea>
+                            <span asp-validation-for="Address" class="text-danger fs-8"></span>
+                        </div>
+                    </div>
+
+                    <!-- Specs -->
+                    <h6 class="fw-bold text-dark border-bottom pb-2 mb-3"><i class="bi bi-rulers me-2 text-muted"></i>Property Specifications</h6>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-3">
+                            <label asp-for="Area" class="form-label-premium">Area (Sqm) *</label>
+                            <input asp-for="Area" type="number" step="0.01" class="form-control form-control-premium" required />
+                            <span asp-validation-for="Area" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-3">
+                            <label asp-for="Rooms" class="form-label-premium">Rooms</label>
+                            <input asp-for="Rooms" type="number" class="form-control form-control-premium" />
+                            <span asp-validation-for="Rooms" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-3">
+                            <label asp-for="Bathrooms" class="form-label-premium">Bathrooms</label>
+                            <input asp-for="Bathrooms" type="number" class="form-control form-control-premium" />
+                            <span asp-validation-for="Bathrooms" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-3">
+                            <label asp-for="Floors" class="form-label-premium">Floors</label>
+                            <input asp-for="Floors" type="number" class="form-control form-control-premium" />
+                            <span asp-validation-for="Floors" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="Description" class="form-label-premium">Description</label>
+                            <textarea asp-for="Description" rows="3" class="form-control form-control-premium" placeholder="Additional details about the property (e.g. view, furnishing, conditions)..."></textarea>
+                            <span asp-validation-for="Description" class="text-danger fs-8"></span>
+                        </div>
+                    </div>
+
+                    <!-- Uploads -->
+                    <h6 class="fw-bold text-dark border-bottom pb-2 mb-3"><i class="bi bi-cloud-arrow-up me-2 text-muted"></i>Property Files & Documents</h6>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <label class="form-label-premium">Upload Property Photos</label>
+                            <input type="file" name="imageFiles" multiple class="form-control form-control-premium" accept="image/*" />
+                            <small class="text-muted fs-8">You can upload multiple JPG/PNG images</small>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label-premium">Upload Deeds / Legal Documents</label>
+                            <input type="file" name="documentFiles" multiple class="form-control form-control-premium" accept=".pdf,.doc,.docx,.jpg,.png" />
+                            <small class="text-muted fs-8">You can upload multiple files (PDF, Word, or Scanned Images)</small>
+                        </div>
+                    </div>
+
+                    <!-- Form Buttons -->
+                    <div class="d-flex justify-content-end gap-2 border-top pt-3">
+                        <a href="@Url.Action("Index", "Properties")" class="btn btn-premium btn-premium-secondary">Cancel</a>
+                        <button type="submit" class="btn btn-premium btn-premium-success px-4">
+                            <i class="bi bi-check-lg"></i> Register Property
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

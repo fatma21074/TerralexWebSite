@@ -1,0 +1,108 @@
+@model TerralexApp.Models.Transaction
+@{
+    ViewData["Title"] = "Modify Transaction";
+    Layout = "_DashboardLayout";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+            <div class="card-header bg-white border-0 py-3 px-4 d-flex justify-content-between align-items-center">
+                <h5 class="mb-0 text-dark fw-bold"><i class="bi bi-pencil-square me-2 text-warning"></i>Modify Transaction Details</h5>
+                <a href="@Url.Action("Index", "Transactions")" class="btn btn-premium btn-premium-secondary py-1 px-3 fs-7">
+                    <i class="bi bi-arrow-left"></i> Back
+                </a>
+            </div>
+
+            <div class="card-body p-4 pt-0">
+                <form asp-controller="Transactions" asp-action="Edit" method="post" class="needs-validation">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                    <input type="hidden" asp-for="TransactionId" />
+
+                    <!-- Associations -->
+                    <h6 class="fw-bold text-dark border-bottom pb-2 mb-3"><i class="bi bi-link-45deg me-2 text-muted"></i>Associations</h6>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <label asp-for="ClientId" class="form-label-premium">Client *</label>
+                            <select asp-for="ClientId" asp-items="ViewBag.ClientId" class="form-select form-control-premium" required>
+                                <option value="">Select Client</option>
+                            </select>
+                            <span asp-validation-for="ClientId" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="PropertyId" class="form-label-premium">Property *</label>
+                            <select asp-for="PropertyId" asp-items="ViewBag.PropertyId" class="form-select form-control-premium" required>
+                                <option value="">Select Property</option>
+                            </select>
+                            <span asp-validation-for="PropertyId" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="StuffId" class="form-label-premium">Assigned Lawyer *</label>
+                            <select asp-for="StuffId" asp-items="ViewBag.StuffId" class="form-select form-control-premium" required>
+                                <option value="">Assign Lawyer</option>
+                            </select>
+                            <span asp-validation-for="StuffId" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="ServiceTypeId" class="form-label-premium">Service Type *</label>
+                            <select asp-for="ServiceTypeId" asp-items="ViewBag.ServiceTypeId" class="form-select form-control-premium" required>
+                                <option value="">Select Service Type</option>
+                            </select>
+                            <span asp-validation-for="ServiceTypeId" class="text-danger fs-8"></span>
+                        </div>
+                    </div>
+
+                    <!-- Schedule & Fees -->
+                    <h6 class="fw-bold text-dark border-bottom pb-2 mb-3"><i class="bi bi-cash-coin me-2 text-muted"></i>Schedule & Fees</h6>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-4">
+                            <label asp-for="TransactionStatusId" class="form-label-premium">Status *</label>
+                            <select asp-for="TransactionStatusId" asp-items="ViewBag.TransactionStatusId" class="form-select form-control-premium" required>
+                                <option value="">Select Status</option>
+                            </select>
+                            <span asp-validation-for="TransactionStatusId" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-4">
+                            <label asp-for="StarDate" class="form-label-premium">Start Date *</label>
+                            <input asp-for="StarDate" type="date" class="form-control form-control-premium" value="@Model.StarDate.ToString("yyyy-MM-dd")" required />
+                            <span asp-validation-for="StarDate" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-4">
+                            <label asp-for="EndDate" class="form-label-premium">Target End Date *</label>
+                            <input asp-for="EndDate" type="date" class="form-control form-control-premium" value="@Model.EndDate.ToString("yyyy-MM-dd")" required />
+                            <span asp-validation-for="EndDate" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="TotalFees" class="form-label-premium">Base Service Fee ($) *</label>
+                            <input asp-for="TotalFees" type="number" step="0.01" class="form-control form-control-premium" required />
+                            <span asp-validation-for="TotalFees" class="text-danger fs-8"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check mt-5 ms-3">
+                                <input asp-for="IsDeleted" class="form-check-input" type="checkbox" />
+                                <label asp-for="IsDeleted" class="form-check-label fw-semibold text-danger">Archived / Cancelled (Soft Delete)</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="Notes" class="form-label-premium">Transaction Notes</label>
+                            <textarea asp-for="Notes" rows="3" class="form-control form-control-premium"></textarea>
+                            <span asp-validation-for="Notes" class="text-danger fs-8"></span>
+                        </div>
+                    </div>
+
+                    <!-- Form Buttons -->
+                    <div class="d-flex justify-content-end gap-2 border-top pt-3">
+                        <a href="@Url.Action("Index", "Transactions")" class="btn btn-premium btn-premium-secondary">Cancel</a>
+                        <button type="submit" class="btn btn-premium btn-premium-warning px-4 text-white">
+                            <i class="bi bi-check-lg"></i> Update Details
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

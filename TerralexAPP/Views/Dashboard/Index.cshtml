@@ -1,45 +1,172 @@
+@model TerralexAPP.ViewModels.DashboardViewModel
 @{
-    ViewData["Title"] = "Dashboard";
+    ViewData["Title"] = "Dashboard Overview";
     Layout = "_DashboardLayout";
 }
 
-<div class="row">
-    <div class="col-md-12">
-        <h1 class="mb-4">Welcome to TerralexAPP Dashboard</h1>
-        <p class="lead">Select an option from the navigation bar above to get started.</p>
+<!-- Stats Overview Grid -->
+<div class="row g-4 mb-4">
+    <!-- Clients Card -->
+    <div class="col-md-3">
+        <div class="stat-card" style="--card-accent: var(--primary); --card-accent-light: var(--primary-light);">
+            <div class="stat-card-icon">
+                <i class="bi bi-people-fill"></i>
+            </div>
+            <div class="stat-card-val">@Model.TotalClients</div>
+            <div class="stat-card-label">Total Clients</div>
+            <a href="@Url.Action("Clients", "Dashboard")" class="stretched-link"></a>
+        </div>
+    </div>
+
+    <!-- Properties Card -->
+    <div class="col-md-3">
+        <div class="stat-card" style="--card-accent: var(--success); --card-accent-light: var(--success-light);">
+            <div class="stat-card-icon">
+                <i class="bi bi-building-fill"></i>
+            </div>
+            <div class="stat-card-val">@Model.TotalProperties</div>
+            <div class="stat-card-label">Properties Registered</div>
+            <a href="@Url.Action("Index", "Properties")" class="stretched-link"></a>
+        </div>
+    </div>
+
+    <!-- Transactions Card -->
+    <div class="col-md-3">
+        <div class="stat-card" style="--card-accent: var(--warning); --card-accent-light: var(--warning-light);">
+            <div class="stat-card-icon">
+                <i class="bi bi-file-earmark-text-fill"></i>
+            </div>
+            <div class="stat-card-val">@Model.ActiveTransactions</div>
+            <div class="stat-card-label">Active Transactions</div>
+            <a href="@Url.Action("Index", "Transactions")" class="stretched-link"></a>
+        </div>
+    </div>
+
+    <!-- Revenue Card -->
+    <div class="col-md-3">
+        <div class="stat-card" style="--card-accent: var(--info); --card-accent-light: var(--info-light);">
+            <div class="stat-card-icon">
+                <i class="bi bi-cash-stack"></i>
+            </div>
+            <div class="stat-card-val">$@Model.TotalRevenue.ToString("N2")</div>
+            <div class="stat-card-label">Total Earnings</div>
+            <a href="@Url.Action("Index", "Payments")" class="stretched-link"></a>
+        </div>
     </div>
 </div>
 
-<div class="row mt-5">
-    <div class="col-md-4">
-        <div class="card h-100">
-            <div class="card-body text-center">
-                <i class="bi bi-people" style="font-size: 3rem; color: #007bff;"></i>
-                <h5 class="card-title mt-3">Clients</h5>
-                <p class="card-text">Manage your clients information and details.</p>
-                <a href="@Url.Action("Clients", "Dashboard")" class="btn btn-primary">View Clients</a>
+<div class="row g-4">
+    <!-- Upcoming Appointments -->
+    <div class="col-lg-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+            <div class="card-header bg-white border-0 py-3 px-4 d-flex justify-content-between align-items-center">
+                <h5 class="mb-0 text-dark fw-bold"><i class="bi bi-calendar-event me-2 text-primary"></i>Upcoming Appointments</h5>
+                <a href="@Url.Action("Create", "Appointments")" class="btn btn-premium btn-premium-primary py-1 px-3 fs-7">
+                    <i class="bi bi-plus"></i> New
+                </a>
+            </div>
+            <div class="card-body px-4 pb-4 pt-0">
+                @if (Model.UpcomingAppointments == null || !Model.UpcomingAppointments.Any())
+                {
+                    <div class="text-center py-5 text-muted">
+                        <i class="bi bi-calendar-x display-4 mb-3"></i>
+                        <p class="mb-0">No upcoming appointments scheduled.</p>
+                    </div>
+                }
+                else
+                {
+                    <div class="table-responsive">
+                        <table class="table align-middle table-hover mb-0">
+                            <thead>
+                                <tr class="text-muted">
+                                    <th>Client</th>
+                                    <th>Date & Time</th>
+                                    <th>Location</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var appt in Model.UpcomingAppointments)
+                                {
+                                    <tr>
+                                        <td>
+                                            <div class="fw-semibold text-dark">@appt.Client.FirstName @appt.Client.LastName</div>
+                                            <small class="text-muted">@appt.Title</small>
+                                        </td>
+                                        <td>
+                                            <div class="text-dark"><i class="bi bi-clock me-1 text-muted"></i>@appt.AppointmentDate.ToString("g")</div>
+                                        </td>
+                                        <td>
+                                            <span class="badge bg-light text-dark"><i class="bi bi-geo-alt-fill me-1 text-danger"></i>@appt.Location</span>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
             </div>
         </div>
     </div>
 
-    <div class="col-md-4">
-        <div class="card h-100">
-            <div class="card-body text-center">
-                <i class="bi bi-building" style="font-size: 3rem; color: #28a745;"></i>
-                <h5 class="card-title mt-3">Properties</h5>
-                <p class="card-text">Manage and view all properties.</p>
-                <a href="@Url.Action("Properties", "Dashboard")" class="btn btn-success">View Properties</a>
+    <!-- Recent Transactions -->
+    <div class="col-lg-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+            <div class="card-header bg-white border-0 py-3 px-4 d-flex justify-content-between align-items-center">
+                <h5 class="mb-0 text-dark fw-bold"><i class="bi bi-activity me-2 text-success"></i>Recent Transactions</h5>
+                <a href="@Url.Action("Create", "Transactions")" class="btn btn-premium btn-premium-success py-1 px-3 fs-7">
+                    <i class="bi bi-plus"></i> New
+                </a>
             </div>
-        </div>
-    </div>
-
-    <div class="col-md-4">
-        <div class="card h-100">
-            <div class="card-body text-center">
-                <i class="bi bi-file-earmark" style="font-size: 3rem; color: #ffc107;"></i>
-                <h5 class="card-title mt-3">Documents</h5>
-                <p class="card-text">Manage documents and files.</p>
-                <a href="@Url.Action("Documents", "Dashboard")" class="btn btn-warning">View Documents</a>
+            <div class="card-body px-4 pb-4 pt-0">
+                @if (Model.RecentTransactions == null || !Model.RecentTransactions.Any())
+                {
+                    <div class="text-center py-5 text-muted">
+                        <i class="bi bi-file-earmark-x display-4 mb-3"></i>
+                        <p class="mb-0">No transaction records found.</p>
+                    </div>
+                }
+                else
+                {
+                    <div class="table-responsive">
+                        <table class="table align-middle table-hover mb-0">
+                            <thead>
+                                <tr class="text-muted">
+                                    <th>Client / Property</th>
+                                    <th>Start Date</th>
+                                    <th>Status</th>
+                                    <th class="text-end">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var trans in Model.RecentTransactions)
+                                {
+                                    <tr>
+                                        <td>
+                                            <div class="fw-semibold text-dark">@trans.Client.FirstName @trans.Client.LastName</div>
+                                            <small class="text-muted">@trans.Property.Address, @trans.Property.District</small>
+                                        </td>
+                                        <td>
+                                            <span class="text-dark">@trans.StarDate.ToString("d")</span>
+                                        </td>
+                                        <td>
+                                            @{
+                                                var badgeClass = "badge-primary";
+                                                if (trans.TransactionStatus.Name == "Registered") badgeClass = "badge-success";
+                                                else if (trans.TransactionStatus.Name == "Closed") badgeClass = "badge-danger";
+                                                else if (trans.TransactionStatus.Name == "In Progress") badgeClass = "badge-warning";
+                                                else if (trans.TransactionStatus.Name == "Pending Signature") badgeClass = "badge-info";
+                                            }
+                                            <span class="badge-premium @badgeClass">@trans.TransactionStatus.Name</span>
+                                        </td>
+                                        <td class="text-end">
+                                            <a href="@Url.Action("Details", "Transactions", new { id = trans.TransactionId })" class="btn btn-sm btn-outline-secondary rounded-pill px-3">View</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
             </div>
         </div>
     </div>
