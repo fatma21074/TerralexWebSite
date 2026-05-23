@@ -1,0 +1,120 @@
+@model TerralexApp.Models.Payment
+@{
+    Layout = "_DashboardLayout";
+}
+
+<style>
+    @@media print {
+        body * {
+            visibility: hidden;
+        }
+        .printable-invoice, .printable-invoice * {
+            visibility: visible;
+        }
+        .printable-invoice {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+        }
+        .no-print {
+            display: none !important;
+        }
+    }
+</style>
+
+<div class="mb-4 d-flex justify-content-between align-items-center no-print">
+    <a asp-action="Index" class="btn btn-premium btn-premium-secondary">
+        <i class="bi bi-arrow-left"></i> Back to Ledger
+    </a>
+    <button onclick="window.print();" class="btn btn-premium btn-premium-primary">
+        <i class="bi bi-printer-fill"></i> Print Invoice
+    </button>
+</div>
+
+<div class="row justify-content-center printable-invoice">
+    <div class="col-lg-9">
+        <div class="form-card p-5" style="border-top: 6px solid var(--success);">
+            <!-- Invoice Header -->
+            <div class="row border-bottom pb-4 mb-4">
+                <div class="col-md-6">
+                    <h3 class="text-success fw-bold mb-1"><i class="bi bi-shield-shaded me-2"></i>Terralex Legal</h3>
+                    <p class="text-muted small mb-0">Premium Real Estate Legal & Conveyancing Services</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <h4 class="text-dark fw-bold mb-0">PAYMENT RECEIPT</h4>
+                    <span class="badge bg-success-light text-success fw-bold">Receipt #@Model.ReceiptNumber</span>
+                </div>
+            </div>
+
+            <!-- Invoice Metadata -->
+            <div class="row mb-5">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <h6 class="text-muted fw-bold text-uppercase small mb-2">Billed To:</h6>
+                    <h5 class="text-dark fw-bold mb-1">@Model.Transaction?.Client?.FirstName @Model.Transaction?.Client?.LastName</h5>
+                    <p class="text-muted small mb-1"><i class="bi bi-telephone-fill me-1"></i>@Model.Transaction?.Client?.Mobile</p>
+                    <p class="text-muted small mb-0"><i class="bi bi-envelope-fill me-1"></i>@Model.Transaction?.Client?.Email</p>
+                </div>
+                <div class="col-sm-6 text-sm-end">
+                    <h6 class="text-muted fw-bold text-uppercase small mb-2">Receipt Metadata:</h6>
+                    <p class="text-dark mb-1"><strong>Payment Date:</strong> @Model.PaymentDate.ToString("dd MMM yyyy, hh:mm tt")</p>
+                    <p class="text-dark mb-1"><strong>Method:</strong> @Model.PaymentType</p>
+                    <p class="text-dark mb-0"><strong>Transaction ID:</strong> #@Model.TransactionId</p>
+                </div>
+            </div>
+
+            <!-- Transaction Line Items -->
+            <div class="table-responsive mb-4">
+                <table class="table table-bordered">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Description</th>
+                            <th>Property Context</th>
+                            <th class="text-end">Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="fw-bold">Legal Service Fees</div>
+                                <small class="text-muted">Services for Real Estate contract drafting, registry documentation, and legal status reviews.</small>
+                            </td>
+                            <td>
+                                <div>@Model.Transaction?.Property?.District</div>
+                                <small class="text-muted">@Model.Transaction?.Property?.Address</small>
+                            </td>
+                            <td class="text-end fw-semibold">$@Model.AmountService.ToString("N2")</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Invoice Summary Breakdown -->
+            <div class="row justify-content-end mb-4">
+                <div class="col-md-5">
+                    <div class="d-flex justify-content-between border-bottom py-2">
+                        <span class="text-muted fw-medium">Net Service Amount:</span>
+                        <span class="text-dark fw-bold">$@Model.AmountService.ToString("N2")</span>
+                    </div>
+                    <div class="d-flex justify-content-between border-bottom py-2">
+                        <span class="text-muted fw-medium">Collected Taxes (14% VAT):</span>
+                        <span class="text-dark fw-bold">$@((Model.TaxValue ?? 0).ToString("N2"))</span>
+                    </div>
+                    <div class="d-flex justify-content-between py-2 bg-light px-2 rounded mt-2">
+                        <span class="text-success fw-bold">Grand Total Paid:</span>
+                        <span class="text-success fw-bold fs-5">$@Model.TotalAmount.ToString("N2")</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Receipt Footer Notes -->
+            @if (!string.IsNullOrEmpty(Model.Notes))
+            {
+                <div class="border-top pt-3">
+                    <h6 class="text-muted fw-bold text-uppercase small mb-2">Transaction Footnotes:</h6>
+                    <p class="text-muted small">@Model.Notes</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>

@@ -1,31 +1,70 @@
-﻿@model ManageUserRolesViewModel
+@model ManageUserRolesViewModel
 @{
     ViewData["Title"] = "Manage User Roles";
+    Layout = "_DashboardLayout";
 }
 
-<h1>@ViewData["Title"]</h1>
-<h3>User: @Model.UserName</h3>
-<form asp-action="ManageRoles" method="post">
-    <input type="hidden" asp-for="UserId" />
-
-    <div class="row">
-        @for (int i = 0; i < Model.Roles.Count; i++)
-        {
-            <div class="col-md-4">
-                <div class="form-check">
-                    <input type="hidden" asp-for="@Model.Roles[i].RoleId" />
-                    <input type="hidden" asp-for="@Model.Roles[i].RoleName" />
-                    <input asp-for="@Model.Roles[i].IsSelected" class="form-check-input" />
-                    <label asp-for="@Model.Roles[i].IsSelected" class="form-check-label">
-                        @Model.Roles[i].RoleName
-                    </label>
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="form-card shadow-sm">
+            <div class="d-flex align-items-center gap-3 mb-4">
+                <div class="stat-card-icon" style="--card-accent: var(--primary); --card-accent-light: var(--primary-light); margin-bottom: 0;">
+                    <i class="bi bi-shield-check text-primary" style="font-size: 1.5rem;"></i>
+                </div>
+                <div>
+                    <h3 class="mb-0 text-dark fw-bold">Manage User Roles</h3>
+                    <p class="text-muted small mb-0">Select or deselect roles to assign or remove privileges for this user account.</p>
                 </div>
             </div>
-        }
-    </div>
 
-    <div class="mt-3">
-        <button type="submit" class="btn btn-primary">Save Changes</button>
-        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+            <!-- User Info Summary Panel -->
+            <div class="p-3 bg-light rounded-3 mb-4 border border-1 border-light">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                        <span class="text-muted small d-block">Target Account</span>
+                        <strong class="text-dark fs-5">@Model.UserName</strong>
+                    </div>
+                    <span class="badge bg-primary bg-opacity-10 text-primary px-3 py-2 rounded-2 fw-semibold">
+                        ID: @Model.UserId
+                    </span>
+                </div>
+            </div>
+
+            <form asp-action="ManageRoles" method="post">
+                <input type="hidden" asp-for="UserId" />
+
+                <label class="form-label-premium mb-3 d-block">Available System Roles</label>
+                <div class="row g-3">
+                    @for (int i = 0; i < Model.Roles.Count; i++)
+                    {
+                        <div class="col-md-6">
+                            <div class="p-3 border rounded-3 d-flex align-items-center justify-content-between bg-white" style="transition: var(--transition-smooth); border-color: var(--border-color) !important;">
+                                <div class="d-flex align-items-center gap-3">
+                                    <input type="hidden" asp-for="@Model.Roles[i].RoleId" />
+                                    <input type="hidden" asp-for="@Model.Roles[i].RoleName" />
+                                    
+                                    <!-- Custom Toggle Switch -->
+                                    <div class="form-check form-switch mb-0">
+                                        <input asp-for="@Model.Roles[i].IsSelected" class="form-check-input fs-5" role="switch" id="roleSwitch_@i" style="cursor: pointer;" />
+                                        <label class="form-check-label ms-2" for="roleSwitch_@i" style="cursor: pointer;">
+                                            <strong class="text-dark d-block">@Model.Roles[i].RoleName</strong>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+
+                <div class="mt-4 pt-3 border-top d-flex justify-content-end gap-2">
+                    <a asp-action="Index" class="btn btn-premium btn-premium-secondary">
+                        <i class="bi bi-x-circle"></i> Cancel
+                    </a>
+                    <button type="submit" class="btn btn-premium btn-premium-primary">
+                        <i class="bi bi-check-circle"></i> Save Changes
+                    </button>
+                </div>
+            </form>
+        </div>
     </div>
-</form>
+</div>

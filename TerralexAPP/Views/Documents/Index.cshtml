@@ -1,0 +1,287 @@
+@{
+    Layout = "_DashboardLayout";
+    var transactionDocs = ViewBag.TransactionDocs as List<TransactionDocument> ?? new List<TransactionDocument>();
+    var clientDocs = ViewBag.ClientDocs as List<ClientDocument> ?? new List<ClientDocument>();
+    var propertyDocs = ViewBag.PropertyDocs as List<PropertyDocumnet> ?? new List<PropertyDocumnet>();
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h1 class="h3 mb-0 text-gray-800">Document Center</h1>
+        <p class="text-muted small mb-0">Browse and manage secure legal contracts, deed files, and client KYC documents.</p>
+    </div>
+</div>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<!-- Tabbed Panel -->
+<div class="card shadow-sm border-0 mb-4">
+    <div class="card-header bg-white py-3">
+        <ul class="nav nav-pills card-header-pills" id="documentTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active fw-semibold" id="trans-tab" data-bs-toggle="tab" data-bs-target="#trans-pane" type="button" role="tab" aria-controls="trans-pane" aria-selected="true">
+                    <i class="bi bi-file-earmark-text me-2"></i>Transaction Contracts
+                    <span class="badge bg-primary ms-1">@transactionDocs.Count</span>
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link fw-semibold" id="client-tab" data-bs-toggle="tab" data-bs-target="#client-pane" type="button" role="tab" aria-controls="client-pane" aria-selected="false">
+                    <i class="bi bi-person-badge me-2"></i>Client KYC / IDs
+                    <span class="badge bg-secondary ms-1">@clientDocs.Count</span>
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link fw-semibold" id="prop-tab" data-bs-toggle="tab" data-bs-target="#prop-pane" type="button" role="tab" aria-controls="prop-pane" aria-selected="false">
+                    <i class="bi bi-building me-2"></i>Property Deeds
+                    <span class="badge bg-success ms-1">@propertyDocs.Count</span>
+                </button>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="card-body p-0">
+        <div class="tab-content" id="documentTabContent">
+            
+            <!-- Transaction Documents Tab -->
+            <div class="tab-pane fade show active" id="trans-pane" role="tabpanel" aria-labelledby="trans-tab">
+                <table class="table-premium">
+                    <thead>
+                        <tr>
+                            <th>Document Name</th>
+                            <th>Transaction</th>
+                            <th>Property Context</th>
+                            <th>Type</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (!transactionDocs.Any())
+                        {
+                            <tr>
+                                <td colspan="5" class="text-center py-5 text-muted">
+                                    <i class="bi bi-folder2-open" style="font-size: 2.5rem; display: block; margin-bottom: 1rem;"></i>
+                                    No transaction contracts recorded. Go to a specific transaction detail page to upload.
+                                </td>
+                            </tr>
+                        }
+                        else
+                        {
+                            foreach (var doc in transactionDocs)
+                            {
+                                <tr>
+                                    <td>
+                                        <div class="fw-bold text-dark">@doc.DocumentName</div>
+                                        <small class="text-muted">@doc.Description</small>
+                                    </td>
+                                    <td>
+                                        <a asp-controller="Transactions" asp-action="Details" asp-route-id="@doc.TransactionId" class="text-decoration-none fw-semibold">
+                                            Transaction #@doc.TransactionId
+                                        </a>
+                                        <div class="small text-muted">Client: @doc.Transaction?.Client?.FirstName @doc.Transaction?.Client?.LastName</div>
+                                    </td>
+                                    <td>
+                                        <div class="small text-dark fw-medium">@doc.Transaction?.Property?.District</div>
+                                        <small class="text-muted">@doc.Transaction?.Property?.Address</small>
+                                    </td>
+                                    <td>
+                                        <span class="badge-premium badge-info">@doc.DocumentType</span>
+                                    </td>
+                                    <td>
+                                        <a href="@doc.FilePath" download class="btn btn-premium btn-premium-secondary btn-sm">
+                                            <i class="bi bi-cloud-arrow-down-fill"></i> Download
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Client Documents Tab -->
+            <div class="tab-pane fade" id="client-pane" role="tabpanel" aria-labelledby="client-tab">
+                <div class="p-3 bg-light border-bottom d-flex justify-content-between align-items-center">
+                    <span class="text-muted small">KYC records of clients</span>
+                    <button class="btn btn-premium btn-premium-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#uploadClientModal">
+                        <i class="bi bi-upload"></i> Upload Client File
+                    </button>
+                </div>
+                <table class="table-premium">
+                    <thead>
+                        <tr>
+                            <th>Document Subject</th>
+                            <th>Client Profile</th>
+                            <th>Registration Date</th>
+                            <th>Expiration Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (!clientDocs.Any())
+                        {
+                            <tr>
+                                <td colspan="4" class="text-center py-5 text-muted">
+                                    <i class="bi bi-person-badge-fill" style="font-size: 2.5rem; display: block; margin-bottom: 1rem;"></i>
+                                    No client KYC documents uploaded.
+                                </td>
+                            </tr>
+                        }
+                        else
+                        {
+                            foreach (var doc in clientDocs)
+                            {
+                                <tr>
+                                    <td class="fw-bold text-dark">@doc.DocumentName</td>
+                                    <td>
+                                        <a asp-controller="Dashboard" asp-action="ViewClient" asp-route-id="@doc.ClientId" class="text-decoration-none fw-semibold">
+                                            @doc.Client?.FirstName @doc.Client?.LastName
+                                        </a>
+                                    </td>
+                                    <td>@doc.CreateDate.ToString("yyyy-MM-dd")</td>
+                                    <td>
+                                        @if (doc.RenewalDate.HasValue)
+                                        {
+                                            var expired = doc.RenewalDate.Value < DateTime.Now;
+                                            <span class="badge-premium @(expired ? "badge-danger" : "badge-success")">
+                                                @doc.RenewalDate.Value.ToString("yyyy-MM-dd")
+                                            </span>
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">None</span>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Property Documents Tab -->
+            <div class="tab-pane fade" id="prop-pane" role="tabpanel" aria-labelledby="prop-tab">
+                <div class="p-3 bg-light border-bottom d-flex justify-content-between align-items-center">
+                    <span class="text-muted small">Ownership deeds and property maps</span>
+                    <button class="btn btn-premium btn-premium-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#uploadPropertyModal">
+                        <i class="bi bi-upload"></i> Upload Property Deed
+                    </button>
+                </div>
+                <table class="table-premium">
+                    <thead>
+                        <tr>
+                            <th>Document Reference</th>
+                            <th>Property Profile</th>
+                            <th>District</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (!propertyDocs.Any())
+                        {
+                            <tr>
+                                <td colspan="4" class="text-center py-5 text-muted">
+                                    <i class="bi bi-building-fill-exclamation" style="font-size: 2.5rem; display: block; margin-bottom: 1rem;"></i>
+                                    No property deeds uploaded.
+                                </td>
+                            </tr>
+                        }
+                        else
+                        {
+                            foreach (var doc in propertyDocs)
+                            {
+                                <tr>
+                                    <td class="fw-bold text-dark">@System.IO.Path.GetFileName(doc.DoucmentPath)</td>
+                                    <td>
+                                        <a asp-controller="Properties" asp-action="Details" asp-route-id="@doc.PropertyId" class="text-decoration-none fw-semibold">
+                                            Property #@doc.PropertyId
+                                        </a>
+                                    </td>
+                                    <td>@doc.Property?.District</td>
+                                    <td>
+                                        <a href="@doc.DoucmentPath" download class="btn btn-premium btn-premium-secondary btn-sm">
+                                            <i class="bi bi-cloud-arrow-down-fill"></i> Download
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- Upload Client Document Modal -->
+<div class="modal fade" id="uploadClientModal" tabindex="-1" aria-labelledby="uploadClientModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-action="UploadClientDocument" method="post" enctype="multipart/form-data">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="uploadClientModalLabel">Upload Client KYC File</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label-premium">Select Client</label>
+                        <select name="clientId" class="form-select form-control-premium" asp-items="ViewBag.Clients" required>
+                            <option value="">-- Choose --</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label-premium">Document Name / Type</label>
+                        <input type="text" name="documentName" class="form-control form-control-premium" placeholder="e.g. National ID Copy, Tax Record" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label-premium">File Upload</label>
+                        <input type="file" name="file" class="form-control form-control-premium" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label-premium">Expiry / Renewal Date (Optional)</label>
+                        <input type="date" name="renewalDate" class="form-control form-control-premium" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-premium btn-premium-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-premium btn-premium-primary">Upload Document</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Upload Property Document Modal -->
+<div class="modal fade" id="uploadPropertyModal" tabindex="-1" aria-labelledby="uploadPropertyModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-action="UploadPropertyDocument" method="post" enctype="multipart/form-data">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="uploadPropertyModalLabel">Upload Property Deed File</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label-premium">Select Property</label>
+                        <select name="propertyId" class="form-select form-control-premium" asp-items="ViewBag.Properties" required>
+                            <option value="">-- Choose --</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label-premium">File Upload (.pdf, .png, .jpg)</label>
+                        <input type="file" name="file" class="form-control form-control-premium" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-premium btn-premium-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-premium btn-premium-primary bg-success border-0 text-white">Upload Deed</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

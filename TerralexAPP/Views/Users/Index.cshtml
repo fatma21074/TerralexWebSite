@@ -1,30 +1,89 @@
-﻿@model List<UserRolesViewModel>
+@model List<UserRolesViewModel>
 @{
     ViewData["Title"] = "User Management";
+    Layout = "_DashboardLayout";
 }
 
-<h1>@ViewData["Title"]</h1>
+<!-- Top Action Header -->
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <p class="text-muted small mb-0">View all registered users, see their current access roles, and modify their privileges.</p>
+    </div>
+</div>
 
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Email</th>
-            <th>Roles</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var user in Model)
-        {
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show rounded-3 mb-4 shadow-sm border-0 d-flex align-items-center" role="alert">
+        <i class="bi bi-check-circle-fill me-2 fs-5 text-success"></i>
+        <div>
+            @TempData["Success"]
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<!-- Premium Table Card -->
+<div class="table-card shadow-sm">
+    <table class="table-premium">
+        <thead>
             <tr>
-                <td>@user.Email</td>
-                <td>@string.Join(", ", user.Roles)</td>
-                <td>
-                    <a asp-action="ManageRoles" asp-route-id="@user.UserId" class="btn btn-sm btn-primary">
-                        Management Role
-                    </a>
-                </td>
+                <th>User Email</th>
+                <th>Assigned Roles</th>
+                <th class="text-end">Actions</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @if (Model == null || !Model.Any())
+            {
+                <tr>
+                    <td colspan="3" class="text-center py-5 text-muted">
+                        <i class="bi bi-people display-4 mb-3"></i>
+                        <p class="mb-0 fw-semibold">No Users Found</p>
+                    </td>
+                </tr>
+            }
+            else
+            {
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="stat-card-icon" style="--card-accent: var(--primary); --card-accent-light: var(--primary-light); width: 36px; height: 36px; border-radius: 50%; margin-bottom: 0; font-size: 1rem;">
+                                    <i class="bi bi-person-fill"></i>
+                                </div>
+                                <span class="text-dark fw-semibold">@user.Email</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex flex-wrap gap-2">
+                                @if (user.Roles == null || !user.Roles.Any())
+                                {
+                                    <span class="badge-premium badge-secondary">No Role Assigned</span>
+                                }
+                                else
+                                {
+                                    @foreach (var role in user.Roles)
+                                    {
+                                        var badgeClass = "badge-info";
+                                        if (role.Equals("Admin", StringComparison.OrdinalIgnoreCase)) badgeClass = "badge-danger";
+                                        else if (role.Equals("Manager", StringComparison.OrdinalIgnoreCase)) badgeClass = "badge-warning";
+                                        else if (role.Equals("Staff", StringComparison.OrdinalIgnoreCase)) badgeClass = "badge-primary";
+                                        else if (role.Equals("Client", StringComparison.OrdinalIgnoreCase)) badgeClass = "badge-success";
+
+                                        <span class="badge-premium @badgeClass text-uppercase px-2">@role</span>
+                                    }
+                                }
+                            </div>
+                        </td>
+                        <td class="text-end">
+                            <a asp-action="ManageRoles" asp-route-id="@user.UserId" class="btn btn-premium btn-premium-primary py-1.5 px-3 fs-7" title="Manage Roles">
+                                <i class="bi bi-shield-check"></i> Manage Roles
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

@@ -77,6 +77,26 @@
                         <span>Document Center</span>
                     </a>
                 </li>
+                @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                {
+                    <li>
+                        <a class="sidebar-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Users" ? "active" : "")" 
+                           asp-controller="Users" asp-action="Index">
+                            <i class="bi bi-people-fill"></i>
+                            <span>User Management</span>
+                        </a>
+                    </li>
+                }
+                @if (User.IsInRole("Admin"))
+                {
+                    <li>
+                        <a class="sidebar-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Roles" ? "active" : "")" 
+                           asp-controller="Roles" asp-action="Index">
+                            <i class="bi bi-shield-lock-fill"></i>
+                            <span>Role Management</span>
+                        </a>
+                    </li>
+                }
             </ul>
         </aside>
 

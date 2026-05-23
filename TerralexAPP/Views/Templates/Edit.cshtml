@@ -1,0 +1,61 @@
+@model TerralexApp.Models.Template
+@{
+    Layout = "_DashboardLayout";
+}
+
+<div class="mb-4">
+    <a asp-action="Index" class="btn btn-premium btn-premium-secondary">
+        <i class="bi bi-arrow-left"></i> Back to Templates
+    </a>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-lg-6">
+        <div class="form-card">
+            <h3 class="mb-4 text-warning"><i class="bi bi-pencil-square me-2"></i>Edit Template</h3>
+            
+            <form asp-action="Edit" method="post" enctype="multipart/form-data" class="row g-3">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="TemplateId" />
+                <input type="hidden" asp-for="TemplateContentPath" />
+                <input type="hidden" asp-for="IsDeleted" />
+
+                <div class="col-12">
+                    <label asp-for="TemplateName" class="form-label-premium">Template Name</label>
+                    <input asp-for="TemplateName" class="form-control form-control-premium" />
+                    <span asp-validation-for="TemplateName" class="text-danger small"></span>
+                </div>
+
+                <div class="col-12">
+                    <label class="form-label-premium">Template File (Leave empty to keep existing: @System.IO.Path.GetFileName(Model.TemplateContentPath))</label>
+                    <div class="upload-dropzone" onclick="$('#templateFileInput').click();">
+                        <i class="bi bi-cloud-upload text-muted" style="font-size: 2.5rem; display: block; margin-bottom: 0.5rem;"></i>
+                        <span class="text-dark fw-medium" id="uploadFilename">Click here to upload new file</span>
+                        <input type="file" name="templateFile" id="templateFileInput" style="display: none;" onchange="updateFilename(this);" />
+                    </div>
+                </div>
+
+                <div class="col-12 mt-4 d-flex justify-content-end gap-2">
+                    <a asp-action="Index" class="btn btn-premium btn-premium-secondary">Cancel</a>
+                    <button type="submit" class="btn btn-premium btn-premium-primary bg-warning border-0">
+                        <i class="bi bi-save-fill"></i> Save Template
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        function updateFilename(input) {
+            var file = input.files[0];
+            if (file) {
+                $('#uploadFilename').text(file.name + " (" + (file.size / 1024).toFixed(1) + " KB)");
+            } else {
+                $('#uploadFilename').text("Click here to upload new file");
+            }
+        }
+    </script>
+}

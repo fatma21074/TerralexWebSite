@@ -1,0 +1,90 @@
+@model TerralexApp.Models.Appointment
+@{
+    Layout = "_DashboardLayout";
+}
+
+<div class="mb-4">
+    <a asp-action="Index" class="btn btn-premium btn-premium-secondary">
+        <i class="bi bi-arrow-left"></i> Back to List
+    </a>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="form-card">
+            <h3 class="mb-4 text-primary"><i class="bi bi-calendar-event me-2"></i>Schedule Appointment</h3>
+            
+            <form asp-action="Create" method="post" class="row g-3">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="col-md-6">
+                    <label asp-for="ClientId" class="form-label-premium">Client</label>
+                    <select asp-for="ClientId" class="form-select form-control-premium" asp-items="ViewBag.ClientId">
+                        <option value="">-- Select Client --</option>
+                    </select>
+                    <span asp-validation-for="ClientId" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="StuffId" class="form-label-premium">Assigned Lawyer</label>
+                    <select asp-for="StuffId" class="form-select form-control-premium" asp-items="ViewBag.StuffId">
+                        <option value="">-- Select Lawyer --</option>
+                    </select>
+                    <span asp-validation-for="StuffId" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-8">
+                    <label asp-for="Title" class="form-label-premium">Title / Subject</label>
+                    <input asp-for="Title" class="form-control form-control-premium" placeholder="e.g. Initial Consultation, Contract Signing" />
+                    <span asp-validation-for="Title" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-4">
+                    <label asp-for="AppointmentType" class="form-label-premium">Meeting Type</label>
+                    <select asp-for="AppointmentType" class="form-select form-control-premium">
+                        <option value="Consultation">Consultation</option>
+                        <option value="Contract Signing">Contract Signing</option>
+                        <option value="Court Hearing">Court Hearing</option>
+                        <option value="Document Review">Document Review</option>
+                    </select>
+                    <span asp-validation-for="AppointmentType" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="AppointmentDate" class="form-label-premium">Date & Time</label>
+                    <input asp-for="AppointmentDate" type="datetime-local" class="form-control form-control-premium" />
+                    <span asp-validation-for="AppointmentDate" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Location" class="form-label-premium">Location / Link</label>
+                    <input asp-for="Location" class="form-control form-control-premium" placeholder="e.g., Office Room A, Zoom URL, Court Room 3" />
+                    <span asp-validation-for="Location" class="text-danger small"></span>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="Summary" class="form-label-premium">Meeting Summary (Brief)</label>
+                    <input asp-for="Summary" class="form-control form-control-premium" placeholder="Brief summary of the appointment objective" />
+                    <span asp-validation-for="Summary" class="text-danger small"></span>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="Description" class="form-label-premium">Detailed Description (Optional)</label>
+                    <textarea asp-for="Description" rows="4" class="form-control form-control-premium" placeholder="Enter meeting details, requirements, pre-requisites..."></textarea>
+                    <span asp-validation-for="Description" class="text-danger small"></span>
+                </div>
+
+                <div class="col-12 mt-4 d-flex justify-content-end gap-2">
+                    <button type="reset" class="btn btn-premium btn-premium-secondary">Reset Form</button>
+                    <button type="submit" class="btn btn-premium btn-premium-primary">
+                        <i class="bi bi-check-circle-fill"></i> Schedule Meeting
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,106 @@
+@model TerralexApp.Models.Payment
+@{
+    Layout = "_DashboardLayout";
+}
+
+<div class="mb-4">
+    <a asp-action="Index" class="btn btn-premium btn-premium-secondary">
+        <i class="bi bi-arrow-left"></i> Back to Ledger
+    </a>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="form-card">
+            <h3 class="mb-4 text-primary"><i class="bi bi-cash-coin me-2"></i>Record Payment</h3>
+            
+            <form asp-action="Create" method="post" class="row g-3">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="col-md-12">
+                    <label asp-for="TransactionId" class="form-label-premium">Target Transaction</label>
+                    <select asp-for="TransactionId" class="form-select form-control-premium" asp-items="ViewBag.TransactionId">
+                        <option value="">-- Select Transaction to Invoice --</option>
+                    </select>
+                    <span asp-validation-for="TransactionId" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="ReceiptNumber" class="form-label-premium">Receipt Number</label>
+                    <input asp-for="ReceiptNumber" class="form-control form-control-premium" placeholder="e.g., REC-2026-0001" />
+                    <span asp-validation-for="ReceiptNumber" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="PaymentType" class="form-label-premium">Payment Method</label>
+                    <select asp-for="PaymentType" class="form-select form-control-premium">
+                        <option value="Bank Transfer">Bank Transfer</option>
+                        <option value="Cash">Cash</option>
+                        <option value="Credit Card">Credit Card</option>
+                        <option value="Check">Check</option>
+                    </select>
+                    <span asp-validation-for="PaymentType" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="AmountService" class="form-label-premium">Service Fee Amount ($)</label>
+                    <input asp-for="AmountService" type="number" step="0.01" id="amountServiceInput" class="form-control form-control-premium" placeholder="0.00" />
+                    <span asp-validation-for="AmountService" class="text-danger small"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="TaxValue" class="form-label-premium">Tax Value ($) <span class="text-muted">(Leaves blank for auto 14% VAT)</span></label>
+                    <input asp-for="TaxValue" type="number" step="0.01" id="taxValueInput" class="form-control form-control-premium" placeholder="Optional" />
+                    <span asp-validation-for="TaxValue" class="text-danger small"></span>
+                </div>
+
+                <div class="col-12 bg-light p-3 rounded mb-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="text-muted fw-bold">Calculated Grand Total:</span>
+                        <span class="fs-4 fw-bold text-success" id="grandTotalLabel">$0.00</span>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="Notes" class="form-label-premium">Payment Notes</label>
+                    <textarea asp-for="Notes" rows="3" class="form-control form-control-premium" placeholder="Enter bank reference number, check details, or transaction footnotes..."></textarea>
+                    <span asp-validation-for="Notes" class="text-danger small"></span>
+                </div>
+
+                <div class="col-12 mt-4 d-flex justify-content-end gap-2">
+                    <button type="reset" class="btn btn-premium btn-premium-secondary">Reset Form</button>
+                    <button type="submit" class="btn btn-premium btn-premium-primary bg-success border-0 text-white">
+                        <i class="bi bi-wallet2"></i> Save Payment Receipt
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        $(document).ready(function () {
+            function recalculateTotal() {
+                var serviceAmt = parseFloat($("#amountServiceInput").val()) || 0;
+                var taxAmtInput = $("#taxValueInput").val();
+                
+                var taxAmt = 0;
+                if (taxAmtInput === "" || taxAmtInput === undefined) {
+                    taxAmt = Math.round(serviceAmt * 0.14 * 100) / 100;
+                    $("#taxValueInput").attr("placeholder", taxAmt.toFixed(2));
+                } else {
+                    taxAmt = parseFloat(taxAmtInput) || 0;
+                }
+
+                var grandTotal = serviceAmt + taxAmt;
+                $("#grandTotalLabel").text("$" + grandTotal.toFixed(2));
+            }
+
+            $("#amountServiceInput, #taxValueInput").on("input", function () {
+                recalculateTotal();
+            });
+        });
+    </script>
+}

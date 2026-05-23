@@ -1,0 +1,114 @@
+@model IEnumerable<TerralexApp.Models.Payment>
+@{
+    Layout = "_DashboardLayout";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h1 class="h3 mb-0 text-gray-800">Financial Ledger</h1>
+        <p class="text-muted small mb-0">Record and track lawyer consultation fees, registration costs, and taxes.</p>
+    </div>
+    <a asp-action="Create" class="btn btn-premium btn-premium-primary">
+        <i class="bi bi-file-earmark-plus-fill"></i> Record Payment
+    </a>
+</div>
+
+<!-- Financial Summary Cards -->
+<div class="row g-4 mb-4">
+    <div class="col-md-4">
+        <div class="stat-card" style="--card-accent: var(--success); --card-accent-light: var(--success-light);">
+            <div class="stat-card-icon">
+                <i class="bi bi-cash-coin"></i>
+            </div>
+            <div class="stat-card-val">$@(((decimal)ViewBag.TotalRevenue).ToString("N2"))</div>
+            <div class="stat-card-label">Total Revenue (Incl. Taxes)</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="stat-card" style="--card-accent: var(--primary); --card-accent-light: var(--primary-light);">
+            <div class="stat-card-icon">
+                <i class="bi bi-bank"></i>
+            </div>
+            <div class="stat-card-val">$@(((decimal)ViewBag.ServiceRevenue).ToString("N2"))</div>
+            <div class="stat-card-label">Net Service Revenue</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="stat-card" style="--card-accent: var(--warning); --card-accent-light: var(--warning-light);">
+            <div class="stat-card-icon">
+                <i class="bi bi-percent"></i>
+            </div>
+            <div class="stat-card-val">$@(((decimal)ViewBag.TotalTax).ToString("N2"))</div>
+            <div class="stat-card-label">Collected Taxes (14% VAT)</div>
+        </div>
+    </div>
+</div>
+
+<!-- Ledger Table Card -->
+<div class="table-card">
+    <div class="p-3 bg-light border-bottom d-flex align-items-center justify-content-between">
+        <h6 class="mb-0 fw-bold"><i class="bi bi-receipt-cutoff text-primary me-2"></i>Payment Receipts</h6>
+        <span class="badge bg-success rounded-pill">@Model.Count() Recorded</span>
+    </div>
+    <table class="table-premium">
+        <thead>
+            <tr>
+                <th>Receipt #</th>
+                <th>Client / Transaction</th>
+                <th>Service Amount</th>
+                <th>Tax (VAT)</th>
+                <th>Total Amount</th>
+                <th>Date Paid</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="7" class="text-center py-5 text-muted">
+                        <i class="bi bi-wallet2" style="font-size: 3rem; display: block; margin-bottom: 1rem;"></i>
+                        No payment receipts have been recorded yet.
+                    </td>
+                </tr>
+            }
+            else
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="fw-bold text-dark">
+                            <i class="bi bi-hash text-muted"></i>@item.ReceiptNumber
+                        </td>
+                        <td>
+                            <div class="fw-bold">@item.Transaction?.Client?.FirstName @item.Transaction?.Client?.LastName</div>
+                            <small class="text-muted">
+                                <a asp-controller="Transactions" asp-action="Details" asp-route-id="@item.TransactionId" class="text-decoration-none">
+                                    Transaction #@item.TransactionId - @item.Transaction?.Property?.District
+                                </a>
+                            </small>
+                        </td>
+                        <td>$@item.AmountService.ToString("N2")</td>
+                        <td>$@((item.TaxValue ?? 0).ToString("N2"))</td>
+                        <td class="fw-bold text-success">$@item.TotalAmount.ToString("N2")</td>
+                        <td>
+                            <small class="text-muted"><i class="bi bi-clock-fill me-1"></i>@item.PaymentDate.ToString("yyyy-MM-dd hh:mm tt")</small>
+                        </td>
+                        <td>
+                            <div class="d-flex gap-2">
+                                <a asp-action="Details" asp-route-id="@item.PaymentId" class="btn btn-premium btn-premium-secondary btn-sm p-2" title="View Receipt">
+                                    <i class="bi bi-file-earmark-medical-fill"></i>
+                                </a>
+                                <form asp-action="Delete" asp-route-id="@item.PaymentId" method="post" onsubmit="return confirm('Are you sure you want to void this payment receipt?');" class="d-inline">
+                                    <button type="submit" class="btn btn-premium btn-premium-secondary btn-sm p-2 text-danger" title="Void Receipt">
+                                        <i class="bi bi-slash-circle-fill"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

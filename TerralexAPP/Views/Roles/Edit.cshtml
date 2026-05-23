@@ -1,6 +1,6 @@
 @model ApplicationRole
 @{
-    ViewData["Title"] = "Create New Role";
+    ViewData["Title"] = "Edit Role";
     Layout = "_DashboardLayout";
 }
 
@@ -9,16 +9,17 @@
         <div class="form-card shadow-sm">
             <div class="d-flex align-items-center gap-3 mb-4">
                 <div class="stat-card-icon" style="--card-accent: var(--primary); --card-accent-light: var(--primary-light); margin-bottom: 0;">
-                    <i class="bi bi-shield-plus text-primary" style="font-size: 1.5rem;"></i>
+                    <i class="bi bi-pencil-square text-primary" style="font-size: 1.5rem;"></i>
                 </div>
                 <div>
-                    <h3 class="mb-0 text-dark fw-bold">Create New Role</h3>
-                    <p class="text-muted small mb-0">Add a brand new role with access parameters to the application.</p>
+                    <h3 class="mb-0 text-dark fw-bold">Edit Role Details</h3>
+                    <p class="text-muted small mb-0">Update the name and descriptive purpose of this role.</p>
                 </div>
             </div>
 
-            <form asp-action="Create" method="post">
+            <form asp-action="Edit" method="post">
                 <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                <input type="hidden" asp-for="Id" />
 
                 <div class="mb-3">
                     <label asp-for="Name" class="form-label-premium">Role Name</label>
@@ -37,7 +38,7 @@
                         <i class="bi bi-x-circle"></i> Cancel
                     </a>
                     <button type="submit" class="btn btn-premium btn-premium-primary">
-                        <i class="bi bi-check-circle"></i> Save Role
+                        <i class="bi bi-check-circle"></i> Save Changes
                     </button>
                 </div>
             </form>
