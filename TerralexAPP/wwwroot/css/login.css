@@ -20,7 +20,7 @@
 .container {
     position: relative;
     width: 850px;
-    height: 550px;
+    height: 110vh;
     background: #fff;
     margin: 20px;
     border-radius: 30px;
