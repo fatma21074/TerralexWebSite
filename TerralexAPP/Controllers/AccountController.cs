@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using TerralexAPP.Data;
 using TerralexAPP.ViewModels;
@@ -72,19 +72,21 @@ namespace TerralexAPP.Controllers
                     // Assign default role
                     await _userManager.AddToRoleAsync(user, "Client");
                     
-                    // Sign in the user
-                    await _signInManager.SignInAsync(user, isPersistent: false);
-                    _logger.LogInformation($"User {model.Email} registered and logged in successfully.");
-                    return RedirectToAction("Index", "Dashboard");
+                    _logger.LogInformation($"User {model.Email} registered successfully.");
+                    TempData["RegisterSuccess"] = "Registration successful! Please login with your credentials.";
+                    return RedirectToAction(nameof(Login));
                 }
 
-                foreach (var error in result.Errors)
-                {
-                    ModelState.AddModelError(string.Empty, error.Description);
-                }
+                var errors = string.Join("<br/>", result.Errors.Select(e => e.Description));
+                TempData["RegisterError"] = errors;
                 _logger.LogWarning($"Registration failed for {model.Email}: {string.Join(", ", result.Errors.Select(e => e.Description))}");
             }
-            return View(model);
+            else
+            {
+                var errors = string.Join("<br/>", ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage));
+                TempData["RegisterError"] = errors;
+            }
+            return RedirectToAction(nameof(Login));
         }
 
         [HttpPost]

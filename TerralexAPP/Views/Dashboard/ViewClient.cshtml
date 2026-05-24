@@ -71,11 +71,14 @@
                 }
 
                 <div class="d-flex gap-2">
-                    <a href="@Url.Action("EditClient", "Dashboard", new { id = Model.ClientId })" class="btn btn-warning">Edit</a>
-                    <form asp-action="DeleteClient" asp-controller="Dashboard" method="post" style="display:inline;">
-                        <input type="hidden" name="id" value="@Model.ClientId" />
-                        <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure?')">Delete</button>
-                    </form>
+                    @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                    {
+                        <a href="@Url.Action("EditClient", "Dashboard", new { id = Model.ClientId })" class="btn btn-warning">Edit</a>
+                        <form asp-action="DeleteClient" asp-controller="Dashboard" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@Model.ClientId" />
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure?')">Delete</button>
+                        </form>
+                    }
                     <a href="@Url.Action("Clients", "Dashboard")" class="btn btn-secondary">Back to Clients</a>
                 </div>
             </div>

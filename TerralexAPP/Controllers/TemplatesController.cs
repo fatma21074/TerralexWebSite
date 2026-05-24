@@ -86,6 +86,7 @@ namespace TerralexAPP.Controllers
         }
 
         // GET: Templates/Edit/5
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null) return NotFound();
@@ -100,6 +101,7 @@ namespace TerralexAPP.Controllers
         // POST: Templates/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> Edit(int id, Template template, IFormFile? templateFile)
         {
             if (id != template.TemplateId) return NotFound();
@@ -157,6 +159,7 @@ namespace TerralexAPP.Controllers
         // POST: Templates/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var template = await _context.Templates.FindAsync(id);

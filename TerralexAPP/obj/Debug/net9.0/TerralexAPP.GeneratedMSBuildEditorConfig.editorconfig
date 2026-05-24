@@ -15,201 +15,199 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.TargetFrameworkIdentifier = .NETCoreApp
-build_property.TargetFrameworkVersion = v9.0
 build_property.RootNamespace = TerralexAPP
 build_property.RootNamespace = TerralexAPP
-build_property.ProjectDir = C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\
+build_property.ProjectDir = C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP
+build_property.MSBuildProjectDirectory = C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Account/AccessDenied.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Account/Login.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Account/Register.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Appointments/Create.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Appointments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Appointments/Details.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Appointments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Appointments/Edit.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Appointments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Appointments/Index.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Appointments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Dashboard/Clients.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Dashboard/Clients.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXENsaWVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Dashboard/Create.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Dashboard/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Dashboard/CreateClient.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Dashboard/CreateClient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXENyZWF0ZUNsaWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Dashboard/Documents.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Dashboard/Documents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERvY3VtZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Dashboard/EditClient.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Dashboard/EditClient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEVkaXRDbGllbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Dashboard/Index.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Dashboard/Properties.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Dashboard/Properties.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFByb3BlcnRpZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Dashboard/ViewClient.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Dashboard/ViewClient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFZpZXdDbGllbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Dashboard/_ViewStart.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Dashboard/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Documents/Index.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Documents/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Home/Index.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Home/Privacy.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Payments/Create.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Payments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Payments/Details.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Payments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Payments/Index.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Payments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Properties/Create.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Properties/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydGllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Properties/Details.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Properties/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydGllc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Properties/Edit.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Properties/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydGllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Properties/Index.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Properties/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydGllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Roles/Create.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Roles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Roles/Edit.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Roles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Roles/Index.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Roles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Shared/Error.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Shared/_DashboardLayout.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Shared/_DashboardLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXNoYm9hcmRMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Shared/_WebSiteLayout.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Shared/_WebSiteLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9XZWJTaXRlTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Templates/Create.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Templates/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcGxhdGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Templates/Edit.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Templates/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcGxhdGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Templates/Index.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Templates/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcGxhdGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Transactions/Create.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Transactions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Transactions/Details.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Transactions/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Transactions/Edit.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Transactions/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Transactions/Index.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Transactions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Users/Index.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Users/ManageRoles.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Users/ManageRoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTWFuYWdlUm9sZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/WebSite/Index.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/WebSite/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViU2l0ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/_ViewImports.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/_ViewStart.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abdel/source/repos/TerralexWebSite/TerralexAPP/Views/Shared/_Layout.cshtml]
+[C:/DEPI/Final Project/TerralexAPP/TerralexAPP/TerralexAPP/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ros7d3nsj0

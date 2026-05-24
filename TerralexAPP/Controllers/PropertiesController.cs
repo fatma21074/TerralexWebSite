@@ -165,6 +165,7 @@ namespace TerralexAPP.Controllers
         }
 
         // GET: Properties/Edit/5
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -190,6 +191,7 @@ namespace TerralexAPP.Controllers
         // POST: Properties/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> Edit(int id, Property property, List<IFormFile> newImageFiles, List<IFormFile> newDocumentFiles)
         {
             if (id != property.PropertyId)
@@ -289,6 +291,7 @@ namespace TerralexAPP.Controllers
         // POST: Properties/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var property = await _context.Properties.FindAsync(id);
@@ -303,6 +306,7 @@ namespace TerralexAPP.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> DeleteImage(int imageId, int propertyId)
         {
             var image = await _context.PropertyImages.FindAsync(imageId);
@@ -317,6 +321,7 @@ namespace TerralexAPP.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> DeleteDocument(int documentId, int propertyId)
         {
             var doc = await _context.PropertyDocumnets.FindAsync(documentId);

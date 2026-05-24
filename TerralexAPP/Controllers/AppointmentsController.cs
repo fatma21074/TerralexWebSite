@@ -95,6 +95,7 @@ namespace TerralexAPP.Controllers
         }
 
         // GET: Appointments/Edit/5
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null) return NotFound();
@@ -110,6 +111,7 @@ namespace TerralexAPP.Controllers
         // POST: Appointments/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> Edit(int id, Appointment appointment)
         {
             if (id != appointment.AppointmentId) return NotFound();
@@ -141,6 +143,7 @@ namespace TerralexAPP.Controllers
         // POST: Appointments/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var appointment = await _context.Appointments.FindAsync(id);

@@ -560,304 +560,305 @@ E:\#      0   DEPI\EDPI 2025 R4\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\Team 1\Terr
 E:\#      0   DEPI\EDPI 2025 R4\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\Team 1\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\h06lanhafo-{0}-wkij6wtprp-wkij6wtprp.gz
 E:\#      0   DEPI\EDPI 2025 R4\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\Team 1\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\bwnx426b8t-{0}-9wtfm7j0ok-9wtfm7j0ok.gz
 E:\#      0   DEPI\EDPI 2025 R4\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\Team 1\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\32ugdvss8l-{0}-vjom3bl46k-vjom3bl46k.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\appsettings.Development.json
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\appsettings.json
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\TerralexAPP.staticwebassets.runtime.json
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\TerralexAPP.staticwebassets.endpoints.json
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\TerralexAPP.exe
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\TerralexAPP.deps.json
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\TerralexAPP.runtimeconfig.json
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\TerralexAPP.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\TerralexAPP.pdb
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Azure.Core.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Azure.Identity.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Humanizer.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Build.Locator.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Identity.Client.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\Mono.TextTemplating.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\System.ClientModel.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\System.CodeDom.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\System.Composition.AttributedModel.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\System.Composition.Convention.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\System.Composition.Hosting.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\System.Composition.Runtime.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\System.Composition.TypedParts.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\System.Drawing.Common.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\System.Memory.Data.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\System.Runtime.Caching.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\System.Security.Permissions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\System.Windows.Extensions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\TerralexAPP.csproj.AssemblyReference.cache
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\rpswa.dswa.cache.json
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\TerralexAPP.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\TerralexAPP.AssemblyInfoInputs.cache
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\TerralexAPP.AssemblyInfo.cs
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\TerralexAPP.csproj.CoreCompileInputs.cache
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\TerralexAPP.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\TerralexAPP.RazorAssemblyInfo.cache
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\TerralexAPP.RazorAssemblyInfo.cs
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\TerralexAPP.sourcelink.json
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\rjimswa.dswa.cache.json
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\scopedcss\bundle\TerralexAPP.styles.css
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\scopedcss\projectbundle\TerralexAPP.bundle.scp.css
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\rmrd2ayp3s-{0}-p6b0aqerum-p6b0aqerum.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\mx6spp5b8z-{0}-pg75omnm70-pg75omnm70.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\5187w67aea-{0}-f00yxsn1nx-f00yxsn1nx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\xl78viaaqh-{0}-jezxwzktz8-jezxwzktz8.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\j55uf788pw-{0}-akmhyfivmy-akmhyfivmy.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\wts1vjk8gc-{0}-jl14swfat9-jl14swfat9.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\wcaixrqg84-{0}-mr4q8c9m94-mr4q8c9m94.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\dtuhmgt16q-{0}-q3n68jwt9f-q3n68jwt9f.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\dpzdiejuew-{0}-9r627ylsql-9r627ylsql.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\cngrg71r7l-{0}-aukpj2x7lq-aukpj2x7lq.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\jhi241e676-{0}-81z6rcxx3c-81z6rcxx3c.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\8j1t7n1d5f-{0}-t1cqhe9u97-t1cqhe9u97.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\e6xydt5kxw-{0}-c2jlpeoesf-c2jlpeoesf.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\f22a984gj1-{0}-sejl45xvog-sejl45xvog.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\fiaq985z4s-{0}-aexeepp0ev-aexeepp0ev.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\noj7j8li38-{0}-xvp3kq03qx-xvp3kq03qx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\5ldpoaluch-{0}-ausgxo2sd3-ausgxo2sd3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\7u2iwcosmt-{0}-22vffe00uq-22vffe00uq.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\x6vn5u63u9-{0}-cosvhxvwiu-cosvhxvwiu.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\ifkhnjfcu2-{0}-qesaa3a1fm-qesaa3a1fm.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\mum5nq44d6-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\8r9oijhdju-{0}-tmc1g35s3z-tmc1g35s3z.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\21beit9sqj-{0}-fsbi9cje9m-fsbi9cje9m.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\8rs3dofysn-{0}-rxsg74s51o-rxsg74s51o.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\fl533c1fdz-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\gjqrlo9iru-{0}-q9ht133ko3-q9ht133ko3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\ggvtxkki6g-{0}-jd9uben2k1-jd9uben2k1.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\mm5kglqzjv-{0}-gye83jo8yx-gye83jo8yx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\wk5uhjg0oa-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\5ks82gse92-{0}-wl58j5mj3v-wl58j5mj3v.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\vwnw8aii7r-{0}-c2oey78nd0-c2oey78nd0.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\adavwnmrih-{0}-d4r6k3f320-d4r6k3f320.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\t92ayoej0e-{0}-j5mq2jizvt-j5mq2jizvt.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\4mj9w7word-{0}-keugtjm085-keugtjm085.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\6mbccmh131-{0}-nvvlpmu67g-nvvlpmu67g.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\rha0mbi85x-{0}-zub09dkrxp-zub09dkrxp.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\vgvr001evn-{0}-pj5nd1wqec-pj5nd1wqec.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\c5i5ner7c3-{0}-43atpzeawx-43atpzeawx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\tcj7fk5qrs-{0}-v0zj4ognzu-v0zj4ognzu.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\8g9lwmb5r6-{0}-ynyaa8k90p-ynyaa8k90p.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\iwyc5tgrv0-{0}-hrwsygsryq-hrwsygsryq.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\6twyr2hpyh-{0}-c63t5i9ira-c63t5i9ira.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\zkcwvki7g5-{0}-ft3s53vfgj-ft3s53vfgj.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\ypwt7z8ijy-{0}-lldlnrx8f0-lldlnrx8f0.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\kxf35i7nnj-{0}-4094rpi4f9-4094rpi4f9.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\adh3bhd3ee-{0}-6pdc2jztkx-6pdc2jztkx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\mgjweggg8r-{0}-hd3gran6i8-hd3gran6i8.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\tj39th3at8-{0}-iovd86k7lj-iovd86k7lj.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\8ex5b503ap-{0}-ltid2c489k-ltid2c489k.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\u08sdpei8g-{0}-kbrnm935zg-kbrnm935zg.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\ewaxrwk7kl-{0}-8vyfqsqgz1-8vyfqsqgz1.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\v1errl2wds-{0}-y7v9cxd14o-y7v9cxd14o.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\uddxbgiuvj-{0}-u9q1upor1n-u9q1upor1n.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\pvd2q8kx4n-{0}-h1s4sie4z3-h1s4sie4z3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\mixzsvmvs3-{0}-4d85u1mtcx-4d85u1mtcx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\pmm2v3rhc7-{0}-0j3bgjxly4-0j3bgjxly4.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\i9cw7nzgic-{0}-9n7sq9pai4-9n7sq9pai4.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\k9b1byki32-{0}-jc95ic8utn-jc95ic8utn.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\6zhezev47h-{0}-o38fubowyr-o38fubowyr.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\wck9s4yqxn-{0}-kiwfr2v9an-kiwfr2v9an.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\fkrhlf0m38-{0}-zdybs0gz2x-zdybs0gz2x.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\h06lanhafo-{0}-xkl5n22w1u-xkl5n22w1u.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\bwnx426b8t-{0}-8tjqczv181-8tjqczv181.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\32ugdvss8l-{0}-vjom3bl46k-vjom3bl46k.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\gyr83bgyjb-{0}-hkbgzngqjn-hkbgzngqjn.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\t2b3ras3nd-{0}-61n19gt1b8-61n19gt1b8.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\8gj7nrpk7e-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\lbl6hgufuo-{0}-t1cqhe9u97-t1cqhe9u97.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\x2l53gjxhp-{0}-c2jlpeoesf-c2jlpeoesf.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\1c7qeekhcv-{0}-sejl45xvog-sejl45xvog.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\npryvj6k79-{0}-aexeepp0ev-aexeepp0ev.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\a1x8befaey-{0}-xvp3kq03qx-xvp3kq03qx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\xp77sf4dt9-{0}-ausgxo2sd3-ausgxo2sd3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\ddq2azs3sg-{0}-22vffe00uq-22vffe00uq.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\8ided0gato-{0}-cosvhxvwiu-cosvhxvwiu.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\ioqik9kxri-{0}-qesaa3a1fm-qesaa3a1fm.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\gugg0q0zog-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\w3z4bfz53k-{0}-tmc1g35s3z-tmc1g35s3z.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\wkjkalc35d-{0}-fsbi9cje9m-fsbi9cje9m.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\jmn67yv1rv-{0}-rxsg74s51o-rxsg74s51o.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\4jgkex2431-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\zxzxdp7ttx-{0}-q9ht133ko3-q9ht133ko3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\hk215c2rgi-{0}-jd9uben2k1-jd9uben2k1.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\g7avax9yp2-{0}-gye83jo8yx-gye83jo8yx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\76rh4ic37p-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\1w8ysf6kei-{0}-wl58j5mj3v-wl58j5mj3v.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\x5vvu64bvi-{0}-c2oey78nd0-c2oey78nd0.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\kvt87avkny-{0}-d4r6k3f320-d4r6k3f320.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\loej4fodm5-{0}-j5mq2jizvt-j5mq2jizvt.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\aezbj43wlg-{0}-keugtjm085-keugtjm085.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\kk45y7udht-{0}-nvvlpmu67g-nvvlpmu67g.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\mzfnnet6bp-{0}-zub09dkrxp-zub09dkrxp.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\gd3ijkzfi3-{0}-pj5nd1wqec-pj5nd1wqec.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\64oaktp7zm-{0}-43atpzeawx-43atpzeawx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\gqtbmg8xp7-{0}-v0zj4ognzu-v0zj4ognzu.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\amuphv31st-{0}-ynyaa8k90p-ynyaa8k90p.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\ij9iw8bb1g-{0}-hrwsygsryq-hrwsygsryq.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\c3hvqx0hst-{0}-c63t5i9ira-c63t5i9ira.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\yfct0wjokn-{0}-ft3s53vfgj-ft3s53vfgj.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\vcu6o9nigx-{0}-4094rpi4f9-4094rpi4f9.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\6b1o0tqmc1-{0}-6pdc2jztkx-6pdc2jztkx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\jr3c31x1f5-{0}-hd3gran6i8-hd3gran6i8.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\m8sb8yk9gg-{0}-iovd86k7lj-iovd86k7lj.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\uxldn9f6s5-{0}-ltid2c489k-ltid2c489k.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\dgmtwiyr3v-{0}-kbrnm935zg-kbrnm935zg.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\aqdkuzxq33-{0}-8vyfqsqgz1-8vyfqsqgz1.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\bqicyj3yas-{0}-y7v9cxd14o-y7v9cxd14o.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\7zf6crwbyk-{0}-u9q1upor1n-u9q1upor1n.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\hnyxzswzt6-{0}-h1s4sie4z3-h1s4sie4z3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\gjsgwptj3k-{0}-4d85u1mtcx-4d85u1mtcx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\8q6hamtobg-{0}-0j3bgjxly4-0j3bgjxly4.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\7bdkh10hf0-{0}-03hjc8e09r-03hjc8e09r.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\d6lfk7a0xv-{0}-48y08845bh-48y08845bh.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\ygphgtnl6s-{0}-356vix0kms-356vix0kms.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\bbwz5igshn-{0}-83jwlth58m-83jwlth58m.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\3aegf5wj8b-{0}-mrlpezrjn3-mrlpezrjn3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\n5l8uoikrw-{0}-worgj0nhwm-worgj0nhwm.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\zve1oxjd78-{0}-gk0pw8i4co-gk0pw8i4co.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\dmz87vwr6c-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\xc87eqxkzk-{0}-d6nrnj6jjx-d6nrnj6jjx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\tzmbyek7vz-{0}-m9qm4tazc0-m9qm4tazc0.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\2a3sna5hno-{0}-ttgo8qnofa-ttgo8qnofa.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\0qlsicqtyr-{0}-jjsuc0puko-jjsuc0puko.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\27zhrr32a3-{0}-9vr69e8ynj-9vr69e8ynj.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\atym5d32p1-{0}-87fc7y1x7t-87fc7y1x7t.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\0ndcc0cogu-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\q1dkl2wrqk-{0}-ac06rxb8lx-ac06rxb8lx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\6q25040ayn-{0}-ac06rxb8lx-ac06rxb8lx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\staticwebassets.build.json
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\staticwebassets.build.json.cache
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\staticwebassets.development.json
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\swae.build.ex.cache
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\Terralex.7B51CB9B.Up2Date
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\TerralexAPP.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\refint\TerralexAPP.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\TerralexAPP.pdb
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\TerralexAPP.genruntimeconfig.cache
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\ref\TerralexAPP.dll
-C:\Users\abdel\source\repos\TerralexWebSite\TerralexAPP\obj\Debug\net9.0\compressed\dy4iuveo6l-{0}-t8jnb74m96-t8jnb74m96.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\TerralexAPP.csproj.AssemblyReference.cache
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\TerralexAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\TerralexAPP.AssemblyInfoInputs.cache
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\TerralexAPP.AssemblyInfo.cs
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\TerralexAPP.csproj.CoreCompileInputs.cache
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\TerralexAPP.MvcApplicationPartsAssemblyInfo.cache
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\TerralexAPP.RazorAssemblyInfo.cache
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\TerralexAPP.RazorAssemblyInfo.cs
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\TerralexAPP.sourcelink.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\appsettings.Development.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\appsettings.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\TerralexAPP.staticwebassets.runtime.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\TerralexAPP.staticwebassets.endpoints.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\TerralexAPP.exe
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\TerralexAPP.deps.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\TerralexAPP.runtimeconfig.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\TerralexAPP.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\TerralexAPP.pdb
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Azure.Core.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Azure.Identity.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Humanizer.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.ClientModel.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.CodeDom.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.Memory.Data.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\scopedcss\bundle\TerralexAPP.styles.css
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\scopedcss\projectbundle\TerralexAPP.bundle.scp.css
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\staticwebassets.build.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\staticwebassets.development.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\Terralex.7B51CB9B.Up2Date
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\TerralexAPP.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\refint\TerralexAPP.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\TerralexAPP.pdb
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\TerralexAPP.genruntimeconfig.cache
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\ref\TerralexAPP.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.Formats.Asn1.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\bin\Debug\net9.0\System.Text.Json.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\i6pw32hnbl-9ipwfy7v4n.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\wgz9s8u5i7-ht10int9wb.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\vyz1ted1sr-0uc6f3wkle.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\292wy63xfd-jfm3rcjzyc.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\olzwpq8nv0-akmhyfivmy.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\0cru6wy0qg-x8fnk1bhg7.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\q992a48xtv-zk3snyengw.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\sl8i9vp8p2-q3n68jwt9f.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\hgtyruz0x9-ho0d1k5s6r.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\8gbdqmql9d-4udlh72t27.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\xm5ccrixmo-26f9b7qkas.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\e3il0y5s60-bqjiyaj88i.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\7suzlsjsd3-c2jlpeoesf.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\z8ed365hso-erw9l3u2r3.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\zdrk3v3a97-aexeepp0ev.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\sy20x0gi3u-d7shbmvgxk.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\qlxs7odgyk-ausgxo2sd3.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\5urdbk3rwf-k8d9w2qqmf.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\mebtyx82ey-cosvhxvwiu.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\tzv8n87k8x-ub07r2b239.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\ss6d3sy3j1-fvhpjtyr6v.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\wq8tcpg792-b7pk76d08c.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\7bsvwcr42q-fsbi9cje9m.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\i0u8acbj6x-rzd6atqjts.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\f62v8jkt14-ee0r1s7dh0.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\y58uhgz70w-dxx9fxp4il.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\knu0mcp20h-jd9uben2k1.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\04m0l56qul-khv3u5hwcm.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\zo7883qhng-r4e9w2rdcm.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\q0zay34buz-lcd1t2u6c8.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\60tk3om8wa-c2oey78nd0.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\do87zaj4pq-tdbxkamptv.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\9ziyvbx9df-j5mq2jizvt.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\ha5sjz46oq-06098lyss8.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\leyrtebzvq-nvvlpmu67g.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\73np6kq6y3-s35ty4nyc5.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\xt1lljqqcr-pj5nd1wqec.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\f6lzr53p5k-46ein0sx1k.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\mfv4yq493e-v0zj4ognzu.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\hot1zs3sh7-37tfw0ft22.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\65qul4ld0p-hrwsygsryq.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\g9s2eluff7-pk9g2wxc8p.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\aqw018xmwy-ft3s53vfgj.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\izi2h88rwb-6c07u4zvxz.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\jj2e32669a-6cfz1n2cew.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\ibuja38x75-6pdc2jztkx.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\j2l0o1sg8n-493y06b0oq.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\8xmr4ysz8w-iovd86k7lj.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\kmiifc9jfn-vr1egmr9el.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\179xgtgyh1-kbrnm935zg.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\d2ppsla2mb-jj8uyg4cgr.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\bsuvpu87hm-y7v9cxd14o.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\g9t6ntn7bp-notf2xhcfb.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\8t1hrzvqla-h1s4sie4z3.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\cufphd9r8z-63fj8s7r0e.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\l5uknibyz2-0j3bgjxly4.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\bx2z02n8q8-id5vwp8p47.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\dnzpxo2ub4-jc95ic8utn.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\dz5v9vqj5v-j5zv2db0yw.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\5ysp6o44eq-kiwfr2v9an.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\80o80ra1jv-zdybs0gz2x.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\zqsaxoqtw6-wkij6wtprp.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\fxknosmcwe-9wtfm7j0ok.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\c4qstvlp34-vjom3bl46k.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\szi7x60gh3-332asx4m9c.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\ci8dfelx45-61n19gt1b8.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\jrhs4factr-xtxxf3hu2r.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\ve81kd7t9y-bqjiyaj88i.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\yktybufm3a-c2jlpeoesf.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\shz4768zm8-erw9l3u2r3.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\ywhtt0e7ia-aexeepp0ev.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\vy4pv45wd1-d7shbmvgxk.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\sjiod3gojm-ausgxo2sd3.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\0gjx2wnfhw-k8d9w2qqmf.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\mtw54bt88o-cosvhxvwiu.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\zi7zs6316z-ub07r2b239.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\zbl1oi3e8t-fvhpjtyr6v.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\liig75rzvc-b7pk76d08c.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\47hwhqmrg0-fsbi9cje9m.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\2518cwggak-rzd6atqjts.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\2lrenu80ep-ee0r1s7dh0.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\77rixf1tau-dxx9fxp4il.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\dfx2o62sge-jd9uben2k1.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\26beeqp4hc-khv3u5hwcm.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\voa2jiupno-r4e9w2rdcm.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\guveiazbfb-lcd1t2u6c8.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\4tc6fweomx-c2oey78nd0.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\r1vrmz69r3-tdbxkamptv.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\rgg7a81j7i-j5mq2jizvt.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\72ewi20ot9-06098lyss8.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\8oi22texpa-nvvlpmu67g.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\ne5q2xk2pc-s35ty4nyc5.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\rsrr3xxsts-pj5nd1wqec.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\6mfzexxw72-46ein0sx1k.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\6tr2r6579l-v0zj4ognzu.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\6yu701bg70-37tfw0ft22.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\akzkg0m466-hrwsygsryq.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\26kqm0okvl-pk9g2wxc8p.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\24rmi40dwe-ft3s53vfgj.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\a73mgbolon-6cfz1n2cew.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\i61fdcp7na-6pdc2jztkx.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\uiubxvp19p-493y06b0oq.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\v8vau7jazu-iovd86k7lj.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\3gqcoypqvt-vr1egmr9el.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\9ycq291l8n-kbrnm935zg.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\juqgt3fngu-jj8uyg4cgr.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\xxihabfdsb-y7v9cxd14o.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\rp2qfpbaqe-notf2xhcfb.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\kt98nadfdk-h1s4sie4z3.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\jnocbvgzp0-63fj8s7r0e.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\4zb9umvj0x-0j3bgjxly4.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\igezucz3xp-47otxtyo56.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\y40q7nv1zb-4v8eqarkd7.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\gmi6syxh4u-356vix0kms.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\1xyaqceoey-83jwlth58m.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\7ku5ossj22-mrlpezrjn3.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\sbfri5eic4-lzl9nlhx6b.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\g1fzvljnws-ag7o75518u.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\nl9bl9rp44-x0q3zqp4vz.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\h06b5vsuo8-0i3buxo5is.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\e6ab3hfq9b-o1o13a6vjx.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\pq4koicfaj-ttgo8qnofa.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\5vs5gsdhmh-2z0ns9nrw6.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\bfg13cmfkn-muycvpuwrr.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\tey2ge4xmf-87fc7y1x7t.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\mpxr7uxmv3-mlv21k5csn.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\r5pijmam2l-7e4vi3eq2y.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\compressed\53p5oqg7im-7e4vi3eq2y.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\staticwebassets\msbuild.TerralexAPP.Microsoft.AspNetCore.StaticWebAssets.props
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\staticwebassets\msbuild.TerralexAPP.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\staticwebassets\msbuild.build.TerralexAPP.props
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.TerralexAPP.props
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.TerralexAPP.props
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\staticwebassets.pack.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\TerralexAPP\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

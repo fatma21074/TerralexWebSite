@@ -123,6 +123,7 @@ namespace TerralexAPP.Controllers
             return View(client);
         }
 
+        [Authorize(Roles = "Admin,Manager")]
         public IActionResult EditClient(int? id)
         {
             if (id == null)
@@ -137,6 +138,7 @@ namespace TerralexAPP.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> EditClient(int id, Client client, IFormFile? IDImageFront, IFormFile? IDImageBack)
         {
             if (id != client.ClientId)
@@ -219,6 +221,7 @@ namespace TerralexAPP.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> DeleteClient(int id)
         {
             var client = _context.Clients.Find(id);

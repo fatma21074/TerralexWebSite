@@ -62,68 +62,70 @@ E:\#      0   DEPI\EDPI 2025 R4\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\#7 ASP.net 
 E:\#      0   DEPI\EDPI 2025 R4\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\#7 ASP.net Core MVC\Day 7\TerralexAPP\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.pdb
 E:\#      0   DEPI\EDPI 2025 R4\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\#7 ASP.net Core MVC\Day 7\TerralexAPP\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.genruntimeconfig.cache
 E:\#      0   DEPI\EDPI 2025 R4\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\#7 ASP.net Core MVC\Day 7\TerralexAPP\DBGetCodeFirst\obj\Debug\net9.0\ref\DBGetCodeFirst.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\DBGetCodeFirst.exe
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\DBGetCodeFirst.deps.json
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\DBGetCodeFirst.runtimeconfig.json
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\DBGetCodeFirst.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\DBGetCodeFirst.pdb
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Azure.Core.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Azure.Identity.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Identity.Client.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\System.ClientModel.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\System.Drawing.Common.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\System.Memory.Data.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\System.Runtime.Caching.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\System.Security.Permissions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\System.Windows.Extensions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.csproj.AssemblyReference.cache
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.AssemblyInfoInputs.cache
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.AssemblyInfo.cs
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.csproj.CoreCompileInputs.cache
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.sourcelink.json
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\obj\Debug\net9.0\DBGetCod.FE19F421.Up2Date
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\obj\Debug\net9.0\refint\DBGetCodeFirst.dll
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.pdb
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.genruntimeconfig.cache
-C:\Users\abdel\source\repos\TerralexWebSite\DBGetCodeFirst\obj\Debug\net9.0\ref\DBGetCodeFirst.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\DBGetCodeFirst.exe
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\DBGetCodeFirst.deps.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\DBGetCodeFirst.runtimeconfig.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\DBGetCodeFirst.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\DBGetCodeFirst.pdb
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Azure.Core.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Azure.Identity.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\System.ClientModel.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\System.Formats.Asn1.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\System.Memory.Data.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\System.Text.Json.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.csproj.AssemblyReference.cache
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.AssemblyInfoInputs.cache
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.AssemblyInfo.cs
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.csproj.CoreCompileInputs.cache
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.sourcelink.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\obj\Debug\net9.0\DBGetCod.FE19F421.Up2Date
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\obj\Debug\net9.0\refint\DBGetCodeFirst.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.pdb
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\obj\Debug\net9.0\DBGetCodeFirst.genruntimeconfig.cache
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\DBGetCodeFirst\obj\Debug\net9.0\ref\DBGetCodeFirst.dll

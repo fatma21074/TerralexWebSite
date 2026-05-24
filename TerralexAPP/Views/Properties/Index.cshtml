@@ -99,10 +99,13 @@ else
                         <div class="d-flex justify-content-between align-items-center mt-auto">
                             <a href="@Url.Action("Details", "Properties", new { id = property.PropertyId })" class="btn btn-sm btn-outline-primary rounded-pill px-4 fw-semibold">View Details</a>
                             <div class="d-flex gap-1">
-                                <a href="@Url.Action("Edit", "Properties", new { id = property.PropertyId })" class="btn btn-sm btn-light text-warning" title="Edit"><i class="bi bi-pencil-fill"></i></a>
-                                <form method="post" asp-controller="Properties" asp-action="Delete" asp-route-id="@property.PropertyId" class="d-inline" onsubmit="return confirm('Are you sure you want to delete this property?');">
-                                    <button type="submit" class="btn btn-sm btn-light text-danger" title="Delete"><i class="bi bi-trash-fill"></i></button>
-                                </form>
+                                @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                                {
+                                    <a href="@Url.Action("Edit", "Properties", new { id = property.PropertyId })" class="btn btn-sm btn-light text-warning" title="Edit"><i class="bi bi-pencil-fill"></i></a>
+                                    <form method="post" asp-controller="Properties" asp-action="Delete" asp-route-id="@property.PropertyId" class="d-inline" onsubmit="return confirm('Are you sure you want to delete this property?');">
+                                        <button type="submit" class="btn btn-sm btn-light text-danger" title="Delete"><i class="bi bi-trash-fill"></i></button>
+                                    </form>
+                                }
                             </div>
                         </div>
                     </div>

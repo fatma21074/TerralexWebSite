@@ -174,6 +174,7 @@ namespace TerralexAPP.Controllers
         }
 
         // GET: Transactions/Edit/5
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -194,6 +195,7 @@ namespace TerralexAPP.Controllers
         // POST: Transactions/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> Edit(int id, Transaction transaction)
         {
             if (id != transaction.TransactionId)
@@ -229,6 +231,7 @@ namespace TerralexAPP.Controllers
         // POST: Transactions/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var transaction = await _context.Transactions.FindAsync(id);
@@ -293,6 +296,7 @@ namespace TerralexAPP.Controllers
         // POST: Transactions/DeleteFee
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> DeleteFee(int feeId, int transactionId)
         {
             var fee = await _context.TransactionFees.FindAsync(feeId);
@@ -352,6 +356,7 @@ namespace TerralexAPP.Controllers
         // POST: Transactions/DeleteDocument
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> DeleteDocument(int documentId, int transactionId)
         {
             var doc = await _context.TransactionDocuments.FindAsync(documentId);

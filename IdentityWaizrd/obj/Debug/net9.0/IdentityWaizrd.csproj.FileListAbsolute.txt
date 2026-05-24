@@ -441,447 +441,449 @@ E:\#      0   DEPI\EDPI 2025 R4\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\Team 1\Terr
 E:\#      0   DEPI\EDPI 2025 R4\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\Team 1\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
 E:\#      0   DEPI\EDPI 2025 R4\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\Team 1\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 E:\#      0   DEPI\EDPI 2025 R4\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\Team 1\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\appsettings.Development.json
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\appsettings.json
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\IdentityWaizrd.staticwebassets.runtime.json
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\IdentityWaizrd.staticwebassets.endpoints.json
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\IdentityWaizrd.exe
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\IdentityWaizrd.deps.json
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\IdentityWaizrd.runtimeconfig.json
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\IdentityWaizrd.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\IdentityWaizrd.pdb
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Azure.Core.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Azure.Identity.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Humanizer.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Build.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Build.Framework.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Build.Locator.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Build.Tasks.Core.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Build.Utilities.Core.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Identity.Client.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.VisualStudio.Setup.Configuration.Interop.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Mono.TextTemplating.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\Newtonsoft.Json.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\NuGet.Common.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\NuGet.Configuration.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\NuGet.Frameworks.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\NuGet.LibraryModel.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\NuGet.Packaging.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\NuGet.ProjectModel.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\NuGet.Protocol.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\NuGet.Versioning.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\SQLitePCLRaw.core.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\System.ClientModel.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\System.CodeDom.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\System.Composition.AttributedModel.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\System.Composition.Convention.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\System.Composition.Hosting.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\System.Composition.Runtime.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\System.Composition.TypedParts.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\System.Memory.Data.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\System.Resources.Extensions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\System.Runtime.Caching.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\System.Security.Permissions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\System.Windows.Extensions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\af\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ar\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\az\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\bg\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\cs\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\da\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\de\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\el\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\es\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\fa\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\fr\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\he\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\hr\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\hu\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\hy\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\id\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\is\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\it\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ja\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ku\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\lv\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\mt\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\nb\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\nl\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pl\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pt\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ro\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ru\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\sk\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\sl\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\sr\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\sv\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\tr\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\uk\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\vi\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.csproj.AssemblyReference.cache
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\rpswa.dswa.cache.json
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.AssemblyInfoInputs.cache
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.AssemblyInfo.cs
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.csproj.CoreCompileInputs.cache
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.RazorAssemblyInfo.cache
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.RazorAssemblyInfo.cs
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.sourcelink.json
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\rjimswa.dswa.cache.json
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\scopedcss\bundle\IdentityWaizrd.styles.css
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\scopedcss\projectbundle\IdentityWaizrd.bundle.scp.css
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\ofa40bqe71-{0}-b9sayid5wm-b9sayid5wm.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\j9swiz3yzq-{0}-90yqlj465b-90yqlj465b.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\vltxs1u3vm-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\14ipv7q33s-{0}-bqjiyaj88i-bqjiyaj88i.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\rh65p086id-{0}-c2jlpeoesf-c2jlpeoesf.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\eb27mqwgz2-{0}-erw9l3u2r3-erw9l3u2r3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\9glsckmvxo-{0}-aexeepp0ev-aexeepp0ev.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\hh8ihyobdx-{0}-d7shbmvgxk-d7shbmvgxk.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\bww8ud00yd-{0}-ausgxo2sd3-ausgxo2sd3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\edcrak57d7-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\sf8kf2lula-{0}-cosvhxvwiu-cosvhxvwiu.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\3tzsqhslk9-{0}-ub07r2b239-ub07r2b239.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\oxk5o6czdw-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\k8b25g0zwc-{0}-b7pk76d08c-b7pk76d08c.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\8axix7wldr-{0}-fsbi9cje9m-fsbi9cje9m.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\d5z9sfpxbi-{0}-rzd6atqjts-rzd6atqjts.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\u8428c4e9i-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\tg53r17ghy-{0}-dxx9fxp4il-dxx9fxp4il.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\nlrl0f3xs3-{0}-jd9uben2k1-jd9uben2k1.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\1fc4q00scq-{0}-khv3u5hwcm-khv3u5hwcm.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\8xykfy6qmd-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\vsrbd71spn-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\cynp17w084-{0}-c2oey78nd0-c2oey78nd0.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\7o8oyvng68-{0}-tdbxkamptv-tdbxkamptv.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\h9vwtoirpy-{0}-j5mq2jizvt-j5mq2jizvt.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\o5k23vqhrk-{0}-06098lyss8-06098lyss8.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\iznc766avz-{0}-nvvlpmu67g-nvvlpmu67g.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\ns4583i71s-{0}-s35ty4nyc5-s35ty4nyc5.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\47012z8l2l-{0}-pj5nd1wqec-pj5nd1wqec.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\4vzefxwp2m-{0}-46ein0sx1k-46ein0sx1k.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\bh4v3mdph9-{0}-v0zj4ognzu-v0zj4ognzu.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\l186vlgaag-{0}-37tfw0ft22-37tfw0ft22.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\rsc7qacj1u-{0}-hrwsygsryq-hrwsygsryq.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\z408qb6q7a-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\qfr28sqcy1-{0}-ft3s53vfgj-ft3s53vfgj.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\0k1i85ntyh-{0}-6cfz1n2cew-6cfz1n2cew.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\xa379ftczi-{0}-6pdc2jztkx-6pdc2jztkx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\lr5hmrr0j7-{0}-493y06b0oq-493y06b0oq.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\ivy2s9gwh5-{0}-iovd86k7lj-iovd86k7lj.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\higufxz8op-{0}-vr1egmr9el-vr1egmr9el.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\s3tglgz8hr-{0}-kbrnm935zg-kbrnm935zg.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\vw9sls9bhj-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\ym8tkpcl2i-{0}-y7v9cxd14o-y7v9cxd14o.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\zzna4nrm5w-{0}-notf2xhcfb-notf2xhcfb.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\igscs4x0yk-{0}-h1s4sie4z3-h1s4sie4z3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\zap00c0tb5-{0}-63fj8s7r0e-63fj8s7r0e.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\pogzkicjpz-{0}-0j3bgjxly4-0j3bgjxly4.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\j3hwsq15kh-{0}-47otxtyo56-47otxtyo56.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\q3naettu8c-{0}-4v8eqarkd7-4v8eqarkd7.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\ldxy2n3w6q-{0}-356vix0kms-356vix0kms.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\ypthv7q62w-{0}-83jwlth58m-83jwlth58m.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\t6e3b82hrf-{0}-mrlpezrjn3-mrlpezrjn3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\uocis9wxbx-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\2tikzqlmtu-{0}-ag7o75518u-ag7o75518u.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\9muusbdg0a-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\tpsq5dibur-{0}-0i3buxo5is-0i3buxo5is.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\t0qo7o574p-{0}-o1o13a6vjx-o1o13a6vjx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\b9lhb08218-{0}-ttgo8qnofa-ttgo8qnofa.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\a3ygkwa5zy-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\nezrqnk58p-{0}-muycvpuwrr-muycvpuwrr.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\v0zgfp0y55-{0}-87fc7y1x7t-87fc7y1x7t.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\yfc7ypekbg-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\4456x5i0vn-{0}-b9sayid5wm-b9sayid5wm.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\f5kcicw3gr-{0}-61n19gt1b8-61n19gt1b8.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\vmi3k63u2h-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\eb66mp0jii-{0}-t1cqhe9u97-t1cqhe9u97.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\h7o99ti8oy-{0}-c2jlpeoesf-c2jlpeoesf.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\qmga6ruu99-{0}-sejl45xvog-sejl45xvog.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\ugdue7dz2r-{0}-aexeepp0ev-aexeepp0ev.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\sqa7ocrspl-{0}-xvp3kq03qx-xvp3kq03qx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\xn13ch2aqb-{0}-ausgxo2sd3-ausgxo2sd3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\gzttiq6m83-{0}-22vffe00uq-22vffe00uq.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\c43o0jueuc-{0}-cosvhxvwiu-cosvhxvwiu.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\ktubi2weg1-{0}-qesaa3a1fm-qesaa3a1fm.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\2hmpxh4rm1-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\8xr0e4xebg-{0}-tmc1g35s3z-tmc1g35s3z.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\do7ylyohgy-{0}-fsbi9cje9m-fsbi9cje9m.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\r8b0wobn57-{0}-rxsg74s51o-rxsg74s51o.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\nmmrmitfve-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\wbk0cnhb0f-{0}-q9ht133ko3-q9ht133ko3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\kpdmvvvz2b-{0}-jd9uben2k1-jd9uben2k1.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\4o57pge3eu-{0}-gye83jo8yx-gye83jo8yx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\7at70zu5z0-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\k04n57tht3-{0}-wl58j5mj3v-wl58j5mj3v.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\pchu0fkdnj-{0}-c2oey78nd0-c2oey78nd0.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\jafq4hpn12-{0}-d4r6k3f320-d4r6k3f320.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\1gh94rjtvo-{0}-j5mq2jizvt-j5mq2jizvt.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\jhnl6grnqd-{0}-keugtjm085-keugtjm085.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\s8lus9qlx1-{0}-nvvlpmu67g-nvvlpmu67g.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\an0ajaks4w-{0}-zub09dkrxp-zub09dkrxp.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\zil1e4pbth-{0}-pj5nd1wqec-pj5nd1wqec.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\t3vguzy6w3-{0}-43atpzeawx-43atpzeawx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\v6h109p6g7-{0}-v0zj4ognzu-v0zj4ognzu.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\auj5qmx4bd-{0}-ynyaa8k90p-ynyaa8k90p.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\6rk5k0omwe-{0}-hrwsygsryq-hrwsygsryq.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\093t545c8s-{0}-c63t5i9ira-c63t5i9ira.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\redw1pyl68-{0}-ft3s53vfgj-ft3s53vfgj.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\fy1f2fgpxx-{0}-4094rpi4f9-4094rpi4f9.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\7630lscfog-{0}-6pdc2jztkx-6pdc2jztkx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\zw3vh3nqty-{0}-hd3gran6i8-hd3gran6i8.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\f843q0e5eu-{0}-iovd86k7lj-iovd86k7lj.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\s915c5l08z-{0}-ltid2c489k-ltid2c489k.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\vp00ml5cf7-{0}-kbrnm935zg-kbrnm935zg.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\r10grzfwif-{0}-8vyfqsqgz1-8vyfqsqgz1.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\gab224ncj8-{0}-y7v9cxd14o-y7v9cxd14o.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\k5x9r06wjy-{0}-u9q1upor1n-u9q1upor1n.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\b2h5flzkzb-{0}-h1s4sie4z3-h1s4sie4z3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\zs3zhjnpfi-{0}-4d85u1mtcx-4d85u1mtcx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\rwks37yy2z-{0}-0j3bgjxly4-0j3bgjxly4.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\exv3ubg6m0-{0}-03hjc8e09r-03hjc8e09r.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\ic99xp3yq5-{0}-48y08845bh-48y08845bh.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\rlmz8xe0sf-{0}-356vix0kms-356vix0kms.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\lmu6boymi9-{0}-83jwlth58m-83jwlth58m.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\24oa483qs0-{0}-mrlpezrjn3-mrlpezrjn3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\2x1shaiflr-{0}-worgj0nhwm-worgj0nhwm.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\prjxg8eui0-{0}-gk0pw8i4co-gk0pw8i4co.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\zuzr7eiews-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\up3lp8i9ou-{0}-d6nrnj6jjx-d6nrnj6jjx.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\6x00ak8kzc-{0}-m9qm4tazc0-m9qm4tazc0.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\aas3b9f3tn-{0}-ttgo8qnofa-ttgo8qnofa.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\u6dgdwreza-{0}-jjsuc0puko-jjsuc0puko.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\9jm8mer2a7-{0}-9vr69e8ynj-9vr69e8ynj.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\6mg23kip1w-{0}-87fc7y1x7t-87fc7y1x7t.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\mvax109p05-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\mfxi2iqay5-{0}-inzkdcpeb3-inzkdcpeb3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\compressed\0rzj7zisvn-{0}-inzkdcpeb3-inzkdcpeb3.gz
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\staticwebassets.build.json
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\staticwebassets.build.json.cache
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\staticwebassets.development.json
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\swae.build.ex.cache
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\Identity.FBEB683C.Up2Date
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\refint\IdentityWaizrd.dll
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.pdb
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.genruntimeconfig.cache
-C:\Users\abdel\source\repos\TerralexWebSite\IdentityWaizrd\obj\Debug\net9.0\ref\IdentityWaizrd.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\appsettings.Development.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\appsettings.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\IdentityWaizrd.staticwebassets.runtime.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\IdentityWaizrd.staticwebassets.endpoints.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\IdentityWaizrd.exe
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\IdentityWaizrd.deps.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\IdentityWaizrd.runtimeconfig.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\IdentityWaizrd.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\IdentityWaizrd.pdb
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Azure.Core.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Azure.Identity.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Humanizer.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Build.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Build.Tasks.Core.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Build.Utilities.Core.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.VisualStudio.Setup.Configuration.Interop.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\NuGet.Common.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\NuGet.Configuration.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\NuGet.Frameworks.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\NuGet.LibraryModel.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\NuGet.Packaging.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\NuGet.ProjectModel.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\NuGet.Protocol.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\NuGet.Versioning.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.ClientModel.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.CodeDom.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.Formats.Asn1.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.Memory.Data.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.Resources.Extensions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.Text.Json.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\af\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ar\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\az\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\bg\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\cs\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\da\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\de\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\el\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\es\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\fa\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\fr\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\he\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\hr\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\hu\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\hy\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\id\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\is\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\it\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ja\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ku\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\lv\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\mt\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\nb\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\nl\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pl\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pt\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ro\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ru\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\sk\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\sl\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\sr\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\sv\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\tr\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\uk\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\vi\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.csproj.AssemblyReference.cache
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.AssemblyInfoInputs.cache
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.AssemblyInfo.cs
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.csproj.CoreCompileInputs.cache
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.MvcApplicationPartsAssemblyInfo.cs
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.MvcApplicationPartsAssemblyInfo.cache
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.RazorAssemblyInfo.cache
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.RazorAssemblyInfo.cs
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.sourcelink.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\scopedcss\bundle\IdentityWaizrd.styles.css
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\scopedcss\projectbundle\IdentityWaizrd.bundle.scp.css
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\14ipv7q33s-bqjiyaj88i.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\rh65p086id-c2jlpeoesf.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\eb27mqwgz2-erw9l3u2r3.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\9glsckmvxo-aexeepp0ev.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\hh8ihyobdx-d7shbmvgxk.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\bww8ud00yd-ausgxo2sd3.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\edcrak57d7-k8d9w2qqmf.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\sf8kf2lula-cosvhxvwiu.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\3tzsqhslk9-ub07r2b239.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\oxk5o6czdw-fvhpjtyr6v.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\k8b25g0zwc-b7pk76d08c.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\8axix7wldr-fsbi9cje9m.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\d5z9sfpxbi-rzd6atqjts.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\u8428c4e9i-ee0r1s7dh0.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\tg53r17ghy-dxx9fxp4il.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\nlrl0f3xs3-jd9uben2k1.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\1fc4q00scq-khv3u5hwcm.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\8xykfy6qmd-r4e9w2rdcm.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\vsrbd71spn-lcd1t2u6c8.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\cynp17w084-c2oey78nd0.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\7o8oyvng68-tdbxkamptv.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\h9vwtoirpy-j5mq2jizvt.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\o5k23vqhrk-06098lyss8.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\iznc766avz-nvvlpmu67g.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\ns4583i71s-s35ty4nyc5.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\47012z8l2l-pj5nd1wqec.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\4vzefxwp2m-46ein0sx1k.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\bh4v3mdph9-v0zj4ognzu.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\l186vlgaag-37tfw0ft22.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\rsc7qacj1u-hrwsygsryq.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\z408qb6q7a-pk9g2wxc8p.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\qfr28sqcy1-ft3s53vfgj.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\0k1i85ntyh-6cfz1n2cew.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\xa379ftczi-6pdc2jztkx.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\lr5hmrr0j7-493y06b0oq.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\ivy2s9gwh5-iovd86k7lj.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\higufxz8op-vr1egmr9el.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\s3tglgz8hr-kbrnm935zg.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\vw9sls9bhj-jj8uyg4cgr.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\ym8tkpcl2i-y7v9cxd14o.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\zzna4nrm5w-notf2xhcfb.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\igscs4x0yk-h1s4sie4z3.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\zap00c0tb5-63fj8s7r0e.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\pogzkicjpz-0j3bgjxly4.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\j3hwsq15kh-47otxtyo56.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\q3naettu8c-4v8eqarkd7.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\ypthv7q62w-83jwlth58m.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\t6e3b82hrf-mrlpezrjn3.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\uocis9wxbx-lzl9nlhx6b.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\2tikzqlmtu-ag7o75518u.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\tpsq5dibur-0i3buxo5is.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\t0qo7o574p-o1o13a6vjx.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\b9lhb08218-ttgo8qnofa.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nrw6.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\il0hqxnhgu-b9sayid5wm.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\2yfxjx4ske-61n19gt1b8.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\zl56p88uh1-xtxxf3hu2r.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\dvl2ab90e8-bqjiyaj88i.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\6ga1m0tb3n-c2jlpeoesf.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\jmgbjq25p8-erw9l3u2r3.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\zkv7u9wb8f-aexeepp0ev.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\ib72ut02ux-d7shbmvgxk.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\3k6pvpghnf-ausgxo2sd3.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\eeiky1ojpz-k8d9w2qqmf.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\yoc85q83zy-cosvhxvwiu.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\9epidcvmfh-ub07r2b239.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\0tt4mq1bgw-fvhpjtyr6v.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\lknukzqjgq-b7pk76d08c.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\ibw62sfawt-fsbi9cje9m.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\xkh823o4fs-rzd6atqjts.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\0yqn8mmaq2-ee0r1s7dh0.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\53j3b7qgq5-dxx9fxp4il.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\her1m4wm97-jd9uben2k1.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\x4ombg5yiy-khv3u5hwcm.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\w2d4ovn828-r4e9w2rdcm.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\g8crw34m2s-lcd1t2u6c8.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\40jfgrfxzo-c2oey78nd0.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\0ojp0sz2dt-tdbxkamptv.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\otw55mrhhn-j5mq2jizvt.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\2d3y1c6iys-06098lyss8.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\a6p0huowcz-nvvlpmu67g.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\h6wdf4zq7h-s35ty4nyc5.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\tgucgaw5w7-pj5nd1wqec.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\fx52dam8qx-46ein0sx1k.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\jw3h5c3v77-v0zj4ognzu.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\iikarx8d68-37tfw0ft22.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\3nrf38obv9-hrwsygsryq.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\0641mqye3w-pk9g2wxc8p.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\2legizh1xa-ft3s53vfgj.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\ecvpvt1kaq-6cfz1n2cew.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\3qtvrhm0fd-6pdc2jztkx.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\22tzthxxp1-493y06b0oq.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\drcx7rv870-iovd86k7lj.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\3741zd82q3-vr1egmr9el.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\w7o2sdtag0-kbrnm935zg.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\dw44i4142m-jj8uyg4cgr.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\ytxufea6bw-y7v9cxd14o.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\y05fb94leq-notf2xhcfb.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\uok6ussyqs-h1s4sie4z3.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\an80qa95yk-63fj8s7r0e.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\hndxzmzmn9-0j3bgjxly4.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\km2o5pz5d6-47otxtyo56.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\8v7n2jj3h1-4v8eqarkd7.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\jzf69k52mb-356vix0kms.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\n5p7w449b3-83jwlth58m.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\ytmiqkw6ec-mrlpezrjn3.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\81ft92tafi-lzl9nlhx6b.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\q3fk4m4g8e-ag7o75518u.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\p16wku74xo-x0q3zqp4vz.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\mmnflg3ods-0i3buxo5is.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\3e9e3ulf0q-o1o13a6vjx.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\n8xaifwbbd-ttgo8qnofa.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\cu0qx7m5lv-2z0ns9nrw6.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\5ptp2u4g89-muycvpuwrr.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\yrfzonc7ie-87fc7y1x7t.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\idglkfnymz-mlv21k5csn.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\idjwy56mco-5hm4z5825r.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\compressed\kq6bufr8ks-5hm4z5825r.gz
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\staticwebassets.build.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\staticwebassets.development.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\staticwebassets\msbuild.IdentityWaizrd.Microsoft.AspNetCore.StaticWebAssets.props
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\staticwebassets\msbuild.IdentityWaizrd.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\staticwebassets\msbuild.build.IdentityWaizrd.props
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.IdentityWaizrd.props
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.IdentityWaizrd.props
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\staticwebassets.pack.json
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\Identity.FBEB683C.Up2Date
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\refint\IdentityWaizrd.dll
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.pdb
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\IdentityWaizrd.genruntimeconfig.cache
+C:\DEPI\Final Project\TerralexAPP\TerralexAPP\IdentityWaizrd\obj\Debug\net9.0\ref\IdentityWaizrd.dll
