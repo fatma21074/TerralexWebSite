@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\DBGetCodeFirst\\DBGetCodeFirst.csproj": {}
+    "C:\\Users\\abdel\\source\\repos\\TerralexWebSite\\DBGetCodeFirst\\DBGetCodeFirst.csproj": {}
   },
   "projects": {
-    "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\DBGetCodeFirst\\DBGetCodeFirst.csproj": {
+    "C:\\Users\\abdel\\source\\repos\\TerralexWebSite\\DBGetCodeFirst\\DBGetCodeFirst.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\DBGetCodeFirst\\DBGetCodeFirst.csproj",
+        "projectUniqueName": "C:\\Users\\abdel\\source\\repos\\TerralexWebSite\\DBGetCodeFirst\\DBGetCodeFirst.csproj",
         "projectName": "DBGetCodeFirst",
-        "projectPath": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\DBGetCodeFirst\\DBGetCodeFirst.csproj",
-        "packagesPath": "C:\\Users\\SayedHawas\\.nuget\\packages\\",
-        "outputPath": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\DBGetCodeFirst\\obj\\",
+        "projectPath": "C:\\Users\\abdel\\source\\repos\\TerralexWebSite\\DBGetCodeFirst\\DBGetCodeFirst.csproj",
+        "packagesPath": "C:\\Users\\abdel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdel\\source\\repos\\TerralexWebSite\\DBGetCodeFirst\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SayedHawas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abdel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,10 +26,12 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {}
           }
@@ -45,10 +46,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
@@ -72,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
