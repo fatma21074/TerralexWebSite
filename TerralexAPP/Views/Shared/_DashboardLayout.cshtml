@@ -81,7 +81,7 @@
                 {
                     <li>
                         <a class="sidebar-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Users" ? "active" : "")" 
-                           asp-controller="Users" asp-action="Index">
+                           href="@Url.Action("Index", "Users")">
                             <i class="bi bi-people-fill"></i>
                             <span>User Management</span>
                         </a>
@@ -91,7 +91,7 @@
                 {
                     <li>
                         <a class="sidebar-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Roles" ? "active" : "")" 
-                           asp-controller="Roles" asp-action="Index">
+                           href="@Url.Action("Index", "Roles")">
                             <i class="bi bi-shield-lock-fill"></i>
                             <span>Role Management</span>
                         </a>
@@ -114,8 +114,14 @@
                             <i class="bi bi-person-circle"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="userMenuBtn">
-                            <li><a class="dropdown-item" asp-controller="Users" asp-action="Index"><i class="bi bi-gear me-2"></i>User Management</a></li>
-                            <li><a class="dropdown-item" asp-controller="Roles" asp-action="Index"><i class="bi bi-shield-lock me-2"></i>Role Management</a></li>
+                            @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                            {
+                                <li><a class="dropdown-item" href="@Url.Action("Index", "Users")"><i class="bi bi-gear me-2"></i>User Management</a></li>
+                            }
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li><a class="dropdown-item" href="@Url.Action("Index", "Roles")"><i class="bi bi-shield-lock me-2"></i>Role Management</a></li>
+                            }
                             <li><hr class="dropdown-divider"></li>
                             <li>
                                 <form method="post" asp-controller="Account" asp-action="Logout">
