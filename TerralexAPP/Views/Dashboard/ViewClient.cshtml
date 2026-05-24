@@ -3,85 +3,413 @@
 @{
     ViewData["Title"] = "Client Details";
     Layout = "_DashboardLayout";
+    
+    var badgeClass = Model.ClientType switch
+    {
+        "Individual" => "badge-individual",
+        "Company" => "badge-company",
+        "Government" => "badge-government",
+        _ => "badge-individual"
+    };
 }
 
+<style>
+    /* 🍞 Breadcrumb */
+    .page-breadcrumb {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.85rem;
+        color: #899bbd;
+        margin-bottom: 1.5rem;
+    }
+    .page-breadcrumb a {
+        color: #4154f1;
+        text-decoration: none;
+    }
+    .page-breadcrumb a:hover {
+        text-decoration: underline;
+    }
+    .page-breadcrumb span {
+        margin: 0 6px;
+        color: #cdd4e0;
+    }
+
+    /* 🏷️ Page header */
+    .page-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    .page-header h2 {
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: #012970;
+        margin: 0;
+    }
+    .page-header h2::after {
+        content: '';
+        display: block;
+        width: 40px;
+        height: 3px;
+        background: #4154f1;
+        border-radius: 2px;
+        margin-top: 6px;
+    }
+
+    /* 🎴 Profile Card */
+    .profile-card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+        overflow: hidden;
+        margin-bottom: 2rem;
+    }
+    .profile-card-header {
+        padding: 1.1rem 1.5rem;
+        border-bottom: 1px solid #f1f4f9;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: #fff;
+    }
+    .profile-card-header .header-icon {
+        width: 38px;
+        height: 38px;
+        border-radius: 8px;
+        background: #e8eaff;
+        color: #4154f1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        flex-shrink: 0;
+    }
+    .profile-card-header h5 {
+        font-family: 'Nunito', sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #012970;
+        margin: 0;
+    }
+    .profile-card-header p {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.78rem;
+        color: #899bbd;
+        margin: 0;
+    }
+    .profile-card-body {
+        padding: 1.75rem 1.5rem;
+    }
+
+    /* 🏷️ Info Section Header */
+    .info-section-title {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.72rem;
+        font-weight: 700;
+        color: #4154f1;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin: 1.5rem 0 1rem;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .info-section-title::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: #e8eeff;
+    }
+    .info-section-title:first-of-type {
+        margin-top: 0;
+    }
+
+    /* 📊 Info Row & Fields */
+    .info-label {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: #899bbd;
+        text-transform: uppercase;
+        margin-bottom: 2px;
+    }
+    .info-value {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: #2c3e50;
+    }
+
+    /* 🪪 ID Images display */
+    .id-img-frame {
+        border: 1px solid #e0e6ed;
+        border-radius: 8px;
+        background: #f6f9ff;
+        padding: 8px;
+        text-align: center;
+        transition: transform 0.2s, box-shadow 0.2s;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+    }
+    .id-img-frame:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 18px rgba(1, 41, 112, 0.08);
+    }
+    .id-img-frame img {
+        border-radius: 6px;
+        max-width: 100%;
+        height: auto;
+        max-height: 200px;
+        object-fit: cover;
+    }
+
+    /* 🏷️ Badge Style */
+    .badge-type {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.78rem;
+        font-weight: 700;
+        padding: 5px 12px;
+        border-radius: 50px;
+        display: inline-block;
+    }
+    .badge-individual {
+        background-color: #e0f3ff;
+        color: #007bff;
+    }
+    .badge-company {
+        background-color: #e8fadf;
+        color: #28a745;
+    }
+    .badge-government {
+        background-color: #fff3cd;
+        color: #856404;
+    }
+
+    /* 🔘 Buttons */
+    .btn-edit {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #fff;
+        background: linear-gradient(135deg, #ff9f43, #ffb167);
+        border: none;
+        border-radius: 8px;
+        padding: 0.6rem 1.5rem;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        transition: box-shadow 0.2s, transform 0.12s;
+        box-shadow: 0 4px 14px rgba(255, 159, 67, 0.3);
+        text-decoration: none;
+    }
+    .btn-edit:hover {
+        box-shadow: 0 6px 20px rgba(255, 159, 67, 0.45);
+        transform: translateY(-1px);
+        color: #fff;
+    }
+    .btn-delete {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #fff;
+        background: linear-gradient(135deg, #ea5455, #ff7676);
+        border: none;
+        border-radius: 8px;
+        padding: 0.6rem 1.5rem;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        transition: box-shadow 0.2s, transform 0.12s;
+        box-shadow: 0 4px 14px rgba(234, 84, 85, 0.3);
+    }
+    .btn-delete:hover {
+        box-shadow: 0 6px 20px rgba(234, 84, 85, 0.45);
+        transform: translateY(-1px);
+    }
+    .btn-back {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #4154f1;
+        background: #e8eaff;
+        border: none;
+        border-radius: 8px;
+        padding: 0.6rem 1.5rem;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        transition: background 0.15s, transform 0.12s;
+    }
+    .btn-back:hover {
+        background: #d6daff;
+        color: #3040d0;
+        transform: translateY(-1px);
+    }
+</style>
+
+<!-- Breadcrumb -->
+<nav class="page-breadcrumb" aria-label="breadcrumb">
+    <a href="@Url.Action("Index", "Dashboard")">Home</a>
+    <span>/</span>
+    <a href="@Url.Action("Clients", "Dashboard")">Clients</a>
+    <span>/</span>
+    <span>Client Profile</span>
+</nav>
+
+<!-- Page header -->
+<div class="page-header">
+    <h2>Client Profile</h2>
+</div>
+
 <div class="row">
-    <div class="col-md-8 offset-md-2">
-        <div class="card">
-            <div class="card-header">
-                <h4>Client Details</h4>
+    <div class="col-xl-8 col-lg-7">
+        <div class="profile-card">
+            
+            <!-- Card Header -->
+            <div class="profile-card-header">
+                <div class="header-icon">
+                    <i class="bi bi-person-badge-fill"></i>
+                </div>
+                <div>
+                    <h5>@Model.FirstName @Model.LastName</h5>
+                    <p>Client registration details and status</p>
+                </div>
             </div>
-            <div class="card-body">
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <h6 class="text-muted">First Name</h6>
-                        <p>@Model.FirstName</p>
+
+            <!-- Card Body -->
+            <div class="profile-card-body">
+                
+                <!-- Personal Details -->
+                <div class="info-section-title">
+                    <i class="bi bi-person-fill"></i> Personal Details
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <div class="info-label">First Name</div>
+                        <div class="info-value">@Model.FirstName</div>
                     </div>
                     <div class="col-md-6">
-                        <h6 class="text-muted">Last Name</h6>
-                        <p>@Model.LastName</p>
+                        <div class="info-label">Last Name</div>
+                        <div class="info-value">@Model.LastName</div>
                     </div>
                 </div>
 
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <h6 class="text-muted">National ID</h6>
-                        <p>@Model.NationalId</p>
+                <div class="row mb-4">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <div class="info-label">National ID</div>
+                        <div class="info-value">@Model.NationalId</div>
                     </div>
                     <div class="col-md-6">
-                        <h6 class="text-muted">Mobile</h6>
-                        <p>@Model.Mobile</p>
+                        <div class="info-label">Client Type</div>
+                        <div>
+                            <span class="badge-type @badgeClass text-uppercase">@Model.ClientType</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <h6 class="text-muted">Email</h6>
-                        <p>@Model.Email</p>
+                <!-- Contact Details -->
+                <div class="info-section-title">
+                    <i class="bi bi-envelope-fill"></i> Contact Details
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <div class="info-label">Email Address</div>
+                        <div class="info-value">@Model.Email</div>
                     </div>
                     <div class="col-md-6">
-                        <h6 class="text-muted">Client Type</h6>
-                        <p>@Model.ClientType</p>
+                        <div class="info-label">Mobile Number</div>
+                        <div class="info-value">@Model.Mobile</div>
                     </div>
                 </div>
 
-                <div class="mb-3">
-                    <h6 class="text-muted">Address</h6>
-                    <p>@(string.IsNullOrEmpty(Model.Address) ? "N/A" : Model.Address)</p>
-                </div>
-
-                @if (!string.IsNullOrEmpty(Model.IDImageFrontPath) || !string.IsNullOrEmpty(Model.IDImageBackPath))
-                {
-                    <div class="row mb-3">
-                        @if (!string.IsNullOrEmpty(Model.IDImageFrontPath))
-                        {
-                            <div class="col-md-6">
-                                <h6 class="text-muted">ID Front Image</h6>
-                                <img src="@Model.IDImageFrontPath" alt="ID Front" class="img-fluid" style="max-height: 300px;" />
-                            </div>
-                        }
-                        @if (!string.IsNullOrEmpty(Model.IDImageBackPath))
-                        {
-                            <div class="col-md-6">
-                                <h6 class="text-muted">ID Back Image</h6>
-                                <img src="@Model.IDImageBackPath" alt="ID Back" class="img-fluid" style="max-height: 300px;" />
-                            </div>
-                        }
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="info-label">Primary Address</div>
+                        <div class="info-value text-muted" style="line-height: 1.6;">
+                            @(string.IsNullOrEmpty(Model.Address) ? "No primary address recorded." : Model.Address)
+                        </div>
                     </div>
-                }
-
-                <div class="d-flex gap-2">
-                    @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
-                    {
-                        <a href="@Url.Action("EditClient", "Dashboard", new { id = Model.ClientId })" class="btn btn-warning">Edit</a>
-                        <form asp-action="DeleteClient" asp-controller="Dashboard" method="post" style="display:inline;">
-                            <input type="hidden" name="id" value="@Model.ClientId" />
-                            <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure?')">Delete</button>
-                        </form>
-                    }
-                    <a href="@Url.Action("Clients", "Dashboard")" class="btn btn-secondary">Back to Clients</a>
                 </div>
+
             </div>
         </div>
     </div>
+
+    <!-- ID Documents Sidebar -->
+    <div class="col-xl-4 col-lg-5">
+        <div class="profile-card">
+            
+            <div class="profile-card-header">
+                <div class="header-icon" style="background-color: #fff3cd; color: #ffc107;">
+                    <i class="bi bi-card-image"></i>
+                </div>
+                <div>
+                    <h5>Identity Deeds</h5>
+                    <p>Uploaded scans of Client ID Card</p>
+                </div>
+            </div>
+
+            <div class="profile-card-body">
+                @if (string.IsNullOrEmpty(Model.IDImageFrontPath) && string.IsNullOrEmpty(Model.IDImageBackPath))
+                {
+                    <div class="text-center py-4 text-muted">
+                        <i class="bi bi-file-earmark-image display-6 mb-2 text-secondary"></i>
+                        <p class="mb-0 small">No identity documents uploaded for this client profile.</p>
+                    </div>
+                }
+                else
+                {
+                    @if (!string.IsNullOrEmpty(Model.IDImageFrontPath))
+                    {
+                        <div class="mb-4">
+                            <div class="info-label mb-2">ID Card Front Side</div>
+                            <div class="id-img-frame">
+                                <a href="@Model.IDImageFrontPath" target="_blank" title="View Full Front Scan">
+                                    <img src="@Model.IDImageFrontPath" alt="ID Card Front" />
+                                </a>
+                            </div>
+                        </div>
+                    }
+
+                    @if (!string.IsNullOrEmpty(Model.IDImageBackPath))
+                    {
+                        <div>
+                            <div class="info-label mb-2">ID Card Back Side</div>
+                            <div class="id-img-frame">
+                                <a href="@Model.IDImageBackPath" target="_blank" title="View Full Back Scan">
+                                    <img src="@Model.IDImageBackPath" alt="ID Card Back" />
+                                </a>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+
+        </div>
+    </div>
 </div>
+
+<!-- Actions Block -->
+<div class="d-flex align-items-center gap-2 mt-2">
+    @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+    {
+        <a href="@Url.Action("EditClient", "Dashboard", new { id = Model.ClientId })" class="btn-edit">
+            <i class="bi bi-pencil-square"></i> Edit Profile
+        </a>
+        <form asp-action="DeleteClient" asp-controller="Dashboard" method="post" style="display:inline;" onsubmit="return confirm('Are you sure you want to delete this client record?');">
+            <input type="hidden" name="id" value="@Model.ClientId" />
+            <button type="submit" class="btn-delete">
+                <i class="bi bi-trash-fill"></i> Delete Client
+            </button>
+        </form>
+    }
+    <a href="@Url.Action("Clients", "Dashboard")" class="btn-back">
+        <i class="bi bi-arrow-left-circle"></i> Back to List
+    </a>
+</div>
+

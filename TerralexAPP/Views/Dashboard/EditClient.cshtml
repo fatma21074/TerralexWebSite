@@ -5,103 +5,451 @@
     Layout = "_DashboardLayout";
 }
 
-<div class="row">
-    <div class="col-md-8 offset-md-2">
-        <div class="card">
-            <div class="card-header">
-                <h4>Edit Client</h4>
+<style>
+    /* 🍞 Breadcrumb */
+    .page-breadcrumb {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.85rem;
+        color: #899bbd;
+        margin-bottom: 1.5rem;
+    }
+    .page-breadcrumb a {
+        color: #4154f1;
+        text-decoration: none;
+    }
+    .page-breadcrumb a:hover {
+        text-decoration: underline;
+    }
+    .page-breadcrumb span {
+        margin: 0 6px;
+        color: #cdd4e0;
+    }
+
+    /* 🏷️ Page header */
+    .page-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    .page-header h2 {
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: #012970;
+        margin: 0;
+    }
+    .page-header h2::after {
+        content: '';
+        display: block;
+        width: 40px;
+        height: 3px;
+        background: #4154f1;
+        border-radius: 2px;
+        margin-top: 6px;
+    }
+
+    /* 🎴 Form card */
+    .form-card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+        overflow: hidden;
+        margin-bottom: 2rem;
+    }
+    .form-card-header {
+        padding: 1.1rem 1.5rem;
+        border-bottom: 1px solid #f1f4f9;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: #fff;
+    }
+    .form-card-header .header-icon {
+        width: 38px;
+        height: 38px;
+        border-radius: 8px;
+        background: #e8eaff;
+        color: #4154f1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        flex-shrink: 0;
+    }
+    .form-card-header h5 {
+        font-family: 'Nunito', sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #012970;
+        margin: 0;
+    }
+    .form-card-header p {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.78rem;
+        color: #899bbd;
+        margin: 0;
+    }
+    .form-card-body {
+        padding: 1.75rem 1.5rem;
+    }
+
+    /* 🏷️ Section divider */
+    .form-section-title {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.72rem;
+        font-weight: 700;
+        color: #4154f1;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin: 1.5rem 0 1rem;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .form-section-title::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: #e8eeff;
+    }
+    .form-section-title:first-of-type {
+        margin-top: 0;
+    }
+
+    /* 📝 Form Controls */
+    .form-label {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.82rem;
+        font-weight: 700;
+        color: #444;
+        margin-bottom: 5px;
+    }
+    .form-control,
+    .form-select {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.9rem;
+        color: #333;
+        border: 1px solid #e0e6ed;
+        border-radius: 8px;
+        padding: 0.55rem 0.9rem;
+        background: #f6f9ff;
+        transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+    }
+    .form-control:focus,
+    .form-select:focus {
+        border-color: #4154f1;
+        box-shadow: 0 0 0 3px rgba(65, 84, 241, 0.12);
+        background: #fff;
+        outline: none;
+    }
+    textarea.form-control {
+        resize: vertical;
+        min-height: 90px;
+    }
+
+    /* 🚨 Validation errors */
+    .text-danger {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.78rem;
+        margin-top: 4px;
+        display: block;
+    }
+    .validation-summary-errors {
+        background: #fde8e8;
+        border: 1px solid #f5c6c6;
+        border-radius: 8px;
+        padding: 0.75rem 1rem;
+        margin-bottom: 1.25rem;
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.85rem;
+        color: #c0392b;
+    }
+
+    /* 📤 File upload box */
+    .file-upload-box {
+        border: 2px dashed #d0d8f5;
+        border-radius: 8px;
+        background: #f6f9ff;
+        padding: 1.2rem 1rem;
+        text-align: center;
+        cursor: pointer;
+        transition: border-color 0.2s, background 0.2s;
+        position: relative;
+    }
+    .file-upload-box:hover {
+        border-color: #4154f1;
+        background: #eef0ff;
+    }
+    .file-upload-box input[type="file"] {
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+    }
+    .file-upload-box .upload-icon {
+        font-size: 1.6rem;
+        color: #4154f1;
+        margin-bottom: 6px;
+    }
+    .file-upload-box .upload-label {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.82rem;
+        font-weight: 700;
+        color: #4154f1;
+        display: block;
+    }
+    .file-upload-box .upload-hint {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.74rem;
+        color: #899bbd;
+        margin-top: 2px;
+    }
+    .file-upload-box .file-name {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.78rem;
+        color: #2eca6a;
+        margin-top: 6px;
+        font-weight: 600;
+        display: none;
+    }
+
+    /* 🔘 Buttons */
+    .btn-save {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #fff;
+        background: linear-gradient(135deg, #4154f1, #717ff5);
+        border: none;
+        border-radius: 8px;
+        padding: 0.6rem 1.5rem;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        transition: box-shadow 0.2s, transform 0.12s;
+        box-shadow: 0 4px 14px rgba(65, 84, 241, 0.3);
+    }
+    .btn-save:hover {
+        box-shadow: 0 6px 20px rgba(65, 84, 241, 0.45);
+        transform: translateY(-1px);
+    }
+    .btn-save:active {
+        transform: scale(0.97);
+    }
+    .btn-cancel {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #4154f1;
+        background: #e8eaff;
+        border: none;
+        border-radius: 8px;
+        padding: 0.6rem 1.5rem;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        transition: background 0.15s, transform 0.12s;
+    }
+    .btn-cancel:hover {
+        background: #d6daff;
+        color: #3040d0;
+        transform: translateY(-1px);
+    }
+    .form-card-footer {
+        padding: 1.1rem 1.5rem;
+        background: #f6f9ff;
+        border-top: 1px solid #e8eeff;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* 🖼️ Thumbnail frame */
+    .img-thumbnail-premium {
+        border: 1px solid #e0e6ed;
+        border-radius: 6px;
+        padding: 4px;
+        background: #fff;
+        max-height: 120px;
+        object-fit: cover;
+    }
+</style>
+
+<!-- Breadcrumb -->
+<nav class="page-breadcrumb" aria-label="breadcrumb">
+    <a href="@Url.Action("Index", "Dashboard")">Home</a>
+    <span>/</span>
+    <a href="@Url.Action("Clients", "Dashboard")">Clients</a>
+    <span>/</span>
+    <span>Edit Client</span>
+</nav>
+
+<!-- Page header -->
+<div class="page-header">
+    <h2>Edit Client Profile</h2>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-xl-8 col-lg-10">
+        <div class="form-card">
+
+            <!-- Card Header -->
+            <div class="form-card-header">
+                <div class="header-icon" style="background-color: #ffe8cc; color: #fd7e14;">
+                    <i class="bi bi-pencil-square"></i>
+                </div>
+                <div>
+                    <h5>Edit Client Profile</h5>
+                    <p>Modify registration records and identity deeds below</p>
+                </div>
             </div>
-            <div class="card-body">
-                <form asp-action="EditClient" asp-controller="Dashboard" method="post" enctype="multipart/form-data">
+
+            <!-- Form Body -->
+            <div class="form-card-body">
+                <form id="clientEditForm" asp-action="EditClient" asp-controller="Dashboard" method="post" enctype="multipart/form-data">
                     <input type="hidden" asp-for="ClientId" />
-                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div asp-validation-summary="ModelOnly" class="validation-summary-errors"></div>
+
+                    <!-- Personal info -->
+                    <div class="form-section-title">
+                        <i class="bi bi-person"></i> Personal Details
+                    </div>
 
                     <div class="row">
                         <div class="col-md-6 mb-3">
-                            <label asp-for="FirstName" class="form-label"></label>
-                            <input asp-for="FirstName" class="form-control" />
+                            <label asp-for="FirstName" class="form-label">First Name *</label>
+                            <input asp-for="FirstName" class="form-control" placeholder="Enter first name" />
                             <span asp-validation-for="FirstName" class="text-danger"></span>
                         </div>
                         <div class="col-md-6 mb-3">
-                            <label asp-for="LastName" class="form-label"></label>
-                            <input asp-for="LastName" class="form-control" />
+                            <label asp-for="LastName" class="form-label">Last Name *</label>
+                            <input asp-for="LastName" class="form-control" placeholder="Enter last name" />
                             <span asp-validation-for="LastName" class="text-danger"></span>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-6 mb-3">
-                            <label asp-for="NationalId" class="form-label"></label>
-                            <input asp-for="NationalId" class="form-control" />
+                            <label asp-for="NationalId" class="form-label">National ID *</label>
+                            <input asp-for="NationalId" class="form-control" placeholder="Enter national ID" />
                             <span asp-validation-for="NationalId" class="text-danger"></span>
                         </div>
                         <div class="col-md-6 mb-3">
-                            <label asp-for="Mobile" class="form-label"></label>
-                            <input asp-for="Mobile" class="form-control" />
+                            <label asp-for="ClientType" class="form-label">Client Type *</label>
+                            <select asp-for="ClientType" class="form-control form-select">
+                                <option value="">-- Select Client Type --</option>
+                                <option value="Individual">Individual</option>
+                                <option value="Company">Company</option>
+                                <option value="Government">Government</option>
+                            </select>
+                            <span asp-validation-for="ClientType" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Contact Details -->
+                    <div class="form-section-title">
+                        <i class="bi bi-telephone"></i> Contact Details
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Email" class="form-label">Email Address *</label>
+                            <input asp-for="Email" type="email" class="form-control" placeholder="name@example.com" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Mobile" class="form-label">Mobile Number *</label>
+                            <input asp-for="Mobile" class="form-control" placeholder="+20 1XX XXX XXXX" />
                             <span asp-validation-for="Mobile" class="text-danger"></span>
                         </div>
                     </div>
 
                     <div class="mb-3">
-                        <label asp-for="Email" class="form-label"></label>
-                        <input asp-for="Email" type="email" class="form-control" />
-                        <span asp-validation-for="Email" class="text-danger"></span>
-                    </div>
-
-                    <div class="mb-3">
-                        <label asp-for="Address" class="form-label"></label>
-                        <textarea asp-for="Address" class="form-control" rows="3"></textarea>
+                        <label asp-for="Address" class="form-label">Primary Address</label>
+                        <textarea asp-for="Address" class="form-control" rows="3" placeholder="Street, District, City..."></textarea>
                         <span asp-validation-for="Address" class="text-danger"></span>
                     </div>
 
-                    <div class="mb-3">
-                        <label asp-for="ClientType" class="form-label"></label>
-                        <select asp-for="ClientType" class="form-control">
-                            <option value="">-- Select Client Type --</option>
-                            <option value="Individual">Individual</option>
-                            <option value="Company">Company</option>
-                            <option value="Government">Government</option>
-                        </select>
-                        <span asp-validation-for="ClientType" class="text-danger"></span>
+                    <!-- Identity Deeds -->
+                    <div class="form-section-title">
+                        <i class="bi bi-card-image"></i> ID Documents & Scans
                     </div>
 
                     <div class="row">
                         <div class="col-md-6 mb-3">
+                            <label class="form-label">ID Front Image</label>
                             @if (!string.IsNullOrEmpty(Model.IDImageFrontPath))
                             {
-                                <div class="mb-2">
-                                    <p class="text-muted">Current Front Image:</p>
-                                    <img src="@Model.IDImageFrontPath" alt="Current ID Front" class="img-thumbnail" style="max-height: 150px;" />
+                                <div class="mb-3 p-2 border rounded-3 bg-light text-center">
+                                    <div class="fs-8 text-muted mb-1 fw-bold">CURRENT ID FRONT</div>
+                                    <img src="@Model.IDImageFrontPath" alt="Current ID Front" class="img-thumbnail-premium" />
                                 </div>
                             }
-                            <label for="IDImageFront" class="form-label">ID Front Image (Leave empty to keep current)</label>
-                            <input type="file" id="IDImageFront" name="IDImageFront" class="form-control" accept="image/*" />
-                            <small class="form-text text-muted">Upload new ID front image</small>
+                            <div class="file-upload-box" id="frontBox">
+                                <input type="file" id="IDImageFront" name="IDImageFront" accept="image/*"
+                                       onchange="showFileName(this, 'frontName')" />
+                                <div class="upload-icon"><i class="bi bi-cloud-arrow-up-fill"></i></div>
+                                <span class="upload-label">Upload New Front Scan</span>
+                                <div class="upload-hint">JPG, PNG, WEBP (Replaces current)</div>
+                                <div class="file-name" id="frontName"></div>
+                            </div>
                         </div>
                         <div class="col-md-6 mb-3">
+                            <label class="form-label">ID Back Image</label>
                             @if (!string.IsNullOrEmpty(Model.IDImageBackPath))
                             {
-                                <div class="mb-2">
-                                    <p class="text-muted">Current Back Image:</p>
-                                    <img src="@Model.IDImageBackPath" alt="Current ID Back" class="img-thumbnail" style="max-height: 150px;" />
+                                <div class="mb-3 p-2 border rounded-3 bg-light text-center">
+                                    <div class="fs-8 text-muted mb-1 fw-bold">CURRENT ID BACK</div>
+                                    <img src="@Model.IDImageBackPath" alt="Current ID Back" class="img-thumbnail-premium" />
                                 </div>
                             }
-                            <label for="IDImageBack" class="form-label">ID Back Image (Leave empty to keep current)</label>
-                            <input type="file" id="IDImageBack" name="IDImageBack" class="form-control" accept="image/*" />
-                            <small class="form-text text-muted">Upload new ID back image</small>
+                            <div class="file-upload-box" id="backBox">
+                                <input type="file" id="IDImageBack" name="IDImageBack" accept="image/*"
+                                       onchange="showFileName(this, 'backName')" />
+                                <div class="upload-icon"><i class="bi bi-cloud-arrow-up-fill"></i></div>
+                                <span class="upload-label">Upload New Back Scan</span>
+                                <div class="upload-hint">JPG, PNG, WEBP (Replaces current)</div>
+                                <div class="file-name" id="backName"></div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="d-flex gap-2">
-                        <button type="submit" class="btn btn-primary">Update Client</button>
-                        <a href="@Url.Action("Clients", "Dashboard")" class="btn btn-secondary">Cancel</a>
-                    </div>
                 </form>
             </div>
+
+            <!-- Footer Action Panel -->
+            <div class="form-card-footer">
+                <button type="submit" form="clientEditForm" class="btn-save">
+                    <i class="bi bi-check2-circle"></i> Save Changes
+                </button>
+                <a href="@Url.Action("Clients", "Dashboard")" class="btn-cancel">
+                    <i class="bi bi-x-circle"></i> Cancel
+                </a>
+            </div>
+
         </div>
     </div>
 </div>
 
+<script>
+    function showFileName(input, labelId) {
+        const label = document.getElementById(labelId);
+        if (input.files && input.files[0]) {
+            label.textContent = '📎 ' + input.files[0].name;
+            label.style.display = 'block';
+        } else {
+            label.style.display = 'none';
+        }
+    }
+</script>
+
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
