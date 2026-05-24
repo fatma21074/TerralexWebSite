@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TerralexAPP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43e2205201e2b827b29fdb4ba66bd626de667025")]
 [assembly: System.Reflection.AssemblyProductAttribute("TerralexAPP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TerralexAPP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

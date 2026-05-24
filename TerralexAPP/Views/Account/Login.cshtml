@@ -2,46 +2,101 @@
 
 @{
     ViewData["Title"] = "Login";
+    Layout = null;
 }
 
-<div class="row justify-content-center mt-5">
-    <div class="col-md-6">
-        <div class="card shadow-sm">
-            <div class="card-header bg-primary text-white">
-                <h3 class="mb-0">Login to TerralexAPP</h3>
-            </div>
-            <div class="card-body p-4">
-                <form method="post" asp-action="Login">
-                    <div class="form-group mb-3">
-                        <label asp-for="Email" class="form-label">Email</label>
-                        <input type="email" asp-for="Email" class="form-control" required autofocus>
-                        <span asp-validation-for="Email" class="text-danger"></span>
-                    </div>
-
-                    <div class="form-group mb-3">
-                        <label asp-for="Password" class="form-label">Password</label>
-                        <input type="password" asp-for="Password" class="form-control" required>
-                        <span asp-validation-for="Password" class="text-danger"></span>
-                    </div>
-
-                    <div class="form-check mb-3">
-                        <input class="form-check-input" type="checkbox" asp-for="RememberMe" id="rememberMe">
-                        <label class="form-check-label" for="rememberMe">
-                            Remember me
-                        </label>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary w-100 mb-3">Sign In</button>
-                </form>
-
-                <div class="text-center">
-                    <p class="mb-0">Don't have an account? <a asp-action="Register">Register here</a></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="~/css/login.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box login">
+            <form asp-action="Login" asp-controller="Account" method="post">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input asp-for="Email" type="email" placeholder="Email" required>
+                    <i class='bx bxs-envelope'></i>
+                    <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
+                <div class="input-box">
+                    <input asp-for="Password" type="password" placeholder="Password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="forgot-link">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <p>or login with social platforms</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-google'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </form>
+        </div>
+        <div class="form-box register">
+            <form asp-action="Register" asp-controller="Account" method="post">
+                <h1>Registration</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" required>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <p>or register with social platforms</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-google'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </form>
+        </div>
+        <div class="toggle-box">
+            <div class="toggle-panel toggle-left">
+                <h1>Hello, Welcome!</h1>
+                <p>Don't have an account?</p>
+                <button class="btn register-btn">Register</button>
+            </div>
+            <div class="toggle-panel toggle-right">
+                <h1>Welcome Back!</h1>
+                <p>Already have an account?</p>
+                <button class="btn login-btn">Login</button>
             </div>
         </div>
     </div>
-</div>
 
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-}
+    <script>
+            const container = document.querySelector('.container');
+            const registerBtn = document.querySelector('.register-btn');
+            const loginBtn = document.querySelector('.login-btn');
+
+            registerBtn.addEventListener('click', () => {
+                container.classList.add('active');
+            });
+
+            loginBtn.addEventListener('click', () => {
+                container.classList.remove('active');
+            });
+    </script>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+</body>
+</html>
