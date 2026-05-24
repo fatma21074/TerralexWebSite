@@ -1,74 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\",
+  "WorkspaceRootPath": "E:\\TerralexCode\\TerralexWebSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\views\\roles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\views\\roles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\terralexcode\\terralexwebsite\\terralexapp\\views\\website\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\views\\website\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\terralexcode\\terralexwebsite\\terralexapp\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\terralexcode\\terralexwebsite\\terralexapp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\terralexcode\\terralexwebsite\\terralexapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\views\\shared\\_websitelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\terralexcode\\terralexwebsite\\terralexapp\\views\\shared\\_websitelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\views\\shared\\_websitelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\views\\users\\manageroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\views\\users\\manageroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\viewmodels\\userrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\viewmodels\\userrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\viewmodels\\manageuserrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\viewmodels\\manageuserrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\data\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\data\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\viewmodels\\rolecheckboxviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\viewmodels\\rolecheckboxviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|e:\\#      0   depi\\edpi 2025 r4\\group 1 alx4_swd5_g1 fr 2-5 mon 7-10\\team 1\\terralexapp\\terralexapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D07FC1E-BAA3-488C-A616-845D390DBE97}|TerralexAPP\\TerralexAPP.csproj|solutionrelative:terralexapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,236 +30,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Views\\Roles\\Create.cshtml",
-              "RelativeDocumentMoniker": "TerralexAPP\\Views\\Roles\\Create.cshtml",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Views\\Roles\\Create.cshtml",
-              "RelativeToolTip": "TerralexAPP\\Views\\Roles\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-23T12:56:36.598Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Views\\Roles\\Index.cshtml",
-              "RelativeDocumentMoniker": "TerralexAPP\\Views\\Roles\\Index.cshtml",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Views\\Roles\\Index.cshtml",
-              "RelativeToolTip": "TerralexAPP\\Views\\Roles\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\TerralexCode\\TerralexWebSite\\TerralexAPP\\Views\\WebSite\\Index.cshtml",
+              "RelativeDocumentMoniker": "TerralexAPP\\Views\\WebSite\\Index.cshtml",
+              "ToolTip": "E:\\TerralexCode\\TerralexWebSite\\TerralexAPP\\Views\\WebSite\\Index.cshtml",
+              "RelativeToolTip": "TerralexAPP\\Views\\WebSite\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAC4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-23T12:55:42.862Z",
+              "WhenOpened": "2026-05-24T12:54:42.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RolesController.cs",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Controllers\\RolesController.cs",
-              "RelativeDocumentMoniker": "TerralexAPP\\Controllers\\RolesController.cs",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Controllers\\RolesController.cs",
-              "RelativeToolTip": "TerralexAPP\\Controllers\\RolesController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAAJAAAAAAAAAA==",
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "E:\\TerralexCode\\TerralexWebSite\\TerralexAPP\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "TerralexAPP\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "E:\\TerralexCode\\TerralexWebSite\\TerralexAPP\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "TerralexAPP\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:54:39.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T12:49:22.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "E:\\TerralexCode\\TerralexWebSite\\TerralexAPP\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "TerralexAPP\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "E:\\TerralexCode\\TerralexWebSite\\TerralexAPP\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "TerralexAPP\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T12:49:19.403Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "TerralexAPP\\Controllers\\AccountController.cs",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "TerralexAPP\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:53:14.45Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\TerralexCode\\TerralexWebSite\\TerralexAPP\\appsettings.json",
+              "RelativeDocumentMoniker": "TerralexAPP\\appsettings.json",
+              "ToolTip": "E:\\TerralexCode\\TerralexWebSite\\TerralexAPP\\appsettings.json",
+              "RelativeToolTip": "TerralexAPP\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-24T12:39:02.95Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Program.cs",
-              "RelativeDocumentMoniker": "TerralexAPP\\Program.cs",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Program.cs",
-              "RelativeToolTip": "TerralexAPP\\Program.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAQwE8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:50:59.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "_WebSiteLayout.cshtml",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Views\\Shared\\_WebSiteLayout.cshtml",
+              "DocumentMoniker": "E:\\TerralexCode\\TerralexWebSite\\TerralexAPP\\Views\\Shared\\_WebSiteLayout.cshtml",
               "RelativeDocumentMoniker": "TerralexAPP\\Views\\Shared\\_WebSiteLayout.cshtml",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Views\\Shared\\_WebSiteLayout.cshtml",
+              "ToolTip": "E:\\TerralexCode\\TerralexWebSite\\TerralexAPP\\Views\\Shared\\_WebSiteLayout.cshtml",
               "RelativeToolTip": "TerralexAPP\\Views\\Shared\\_WebSiteLayout.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADoAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAABYPQAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-23T12:35:55.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "TerralexAPP\\Controllers\\UsersController.cs",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "TerralexAPP\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:00:29.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Views\\Users\\Index.cshtml",
-              "RelativeDocumentMoniker": "TerralexAPP\\Views\\Users\\Index.cshtml",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Views\\Users\\Index.cshtml",
-              "RelativeToolTip": "TerralexAPP\\Views\\Users\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-23T12:30:04.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserRolesViewModel.cs",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\ViewModels\\UserRolesViewModel.cs",
-              "RelativeDocumentMoniker": "TerralexAPP\\ViewModels\\UserRolesViewModel.cs",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\ViewModels\\UserRolesViewModel.cs",
-              "RelativeToolTip": "TerralexAPP\\ViewModels\\UserRolesViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:25:09.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ManageRoles.cshtml",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Views\\Users\\ManageRoles.cshtml",
-              "RelativeDocumentMoniker": "TerralexAPP\\Views\\Users\\ManageRoles.cshtml",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Views\\Users\\ManageRoles.cshtml",
-              "RelativeToolTip": "TerralexAPP\\Views\\Users\\ManageRoles.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-23T12:21:51.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Data\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "TerralexAPP\\Data\\ApplicationUser.cs",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Data\\ApplicationUser.cs",
-              "RelativeToolTip": "TerralexAPP\\Data\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:11:49.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ApplicationRole.cs",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Data\\ApplicationRole.cs",
-              "RelativeDocumentMoniker": "TerralexAPP\\Data\\ApplicationRole.cs",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Data\\ApplicationRole.cs",
-              "RelativeToolTip": "TerralexAPP\\Data\\ApplicationRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:12:05.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "TerralexAPP\\Data\\AppDbContext.cs",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "TerralexAPP\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:12:03.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RoleCheckboxViewModel.cs",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\ViewModels\\RoleCheckboxViewModel.cs",
-              "RelativeDocumentMoniker": "TerralexAPP\\ViewModels\\RoleCheckboxViewModel.cs",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\ViewModels\\RoleCheckboxViewModel.cs",
-              "RelativeToolTip": "TerralexAPP\\ViewModels\\RoleCheckboxViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:10:41.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ManageUserRolesViewModel.cs",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\ViewModels\\ManageUserRolesViewModel.cs",
-              "RelativeDocumentMoniker": "TerralexAPP\\ViewModels\\ManageUserRolesViewModel.cs",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\ViewModels\\ManageUserRolesViewModel.cs",
-              "RelativeToolTip": "TerralexAPP\\ViewModels\\ManageUserRolesViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:08:56.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GlobalUsing.cs",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\GlobalUsing.cs",
-              "RelativeDocumentMoniker": "TerralexAPP\\GlobalUsing.cs",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\GlobalUsing.cs",
-              "RelativeToolTip": "TerralexAPP\\GlobalUsing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:04:51.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "TerralexAPP\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\#      0   DEPI\\EDPI 2025 R4\\Group 1 ALX4_SWD5_G1 Fr 2-5 Mon 7-10\\Team 1\\TerralexAPP\\TerralexAPP\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "TerralexAPP\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T11:56:05.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T12:34:11.662Z"
             }
           ]
         }

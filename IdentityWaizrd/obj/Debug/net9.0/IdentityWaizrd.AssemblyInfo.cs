@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IdentityWaizrd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43e2205201e2b827b29fdb4ba66bd626de667025")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87cac86323c46a117e360a92c0941f66b098e2c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("IdentityWaizrd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IdentityWaizrd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
